@@ -1,4 +1,4 @@
-#  Technical Assignment with Jupiter Notebooks with Pyspark and Pandas 
+#  Technical assignment with Jupyter Notebooks using ETL Frameworks Pyspark or Pandas 
 
    An setup with Jupyter Spark AutoML h2o.ai and client libraries Delta.io, PyArrow and Kafka
    Ideal to use Jupyter and tools exploring data in environments
