@@ -4,6 +4,7 @@
    Ideal to use Jupyter and tools exploring data in environments
    Docker (Ubunto 18.04 LTS) or Windows10 WSL (Windows Subsystem Linux)
 
+
    Setup Options
 =========
 
