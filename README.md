@@ -1,4 +1,4 @@
-# Project lost_saturn 
+#  Technical Assignment with Jupiter Notebooks with Pyspark and Pandas 
 
    An setup with Jupyter Spark AutoML h2o.ai and client libraries Delta.io, PyArrow and Kafka
    Ideal to use Jupyter and tools exploring data in environments
