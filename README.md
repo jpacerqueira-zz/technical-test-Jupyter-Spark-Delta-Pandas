@@ -23,12 +23,12 @@
 
      Consume and run docker container with iptable port opening process
 
-        ~ mac-u$ docker run  -it -p 9003:9003 -p 54321:54321 --cap-add=NET_ADMIN --name lost_saturn  gftjoao/datascience-fullstack-v1.0:latest
+        ~ mac-u$ docker run  -it -p 9003:9003 -p 54321:54321 --cap-add=NET_ADMIN --name jupyter_container  gftjoao/datascience-fullstack-v1.0:latest
 
         
      Run Docker exec to start Jupyter after setup above finishes
 
-        ~ mac-u$ docker exec -it lost_saturn /bin/bash -c "cd ; source .bashrc ; bash -x start-jupyter.sh ; sleep 4 ; cat notebooks/jupyter.log ; sleep infinity" 
+        ~ mac-u$ docker exec -it jupyter_container /bin/bash -c "cd ; source .bashrc ; bash -x start-jupyter.sh ; sleep 4 ; cat notebooks/jupyter.log ; sleep infinity" 
 
 
    Option 3
@@ -38,14 +38,14 @@
 
      Consume package 
 
-        ~ wsl-u$  cd ; git clone https://github.com/jpacerqueira/project_lost_saturn.git
+        ~ wsl-u$  cd ; git clone https://github.com/jpacerqueira/project_jupyter_container.git
 
 
      Execute installation
-        ~ wsl-u$  cd ; cp project_lost_saturn/library_tools/*.sh . ; bash -x anaconda_setup.sh
+        ~ wsl-u$  cd ; cp project_jupyter_container/library_tools/*.sh . ; bash -x anaconda_setup.sh
 
 
-   ![lost_saturn - container - Jupyter Notebooks DataScience](images/Docker_container_project_lost_saturn_v1.png)
+   ![jupyter_container - container - Jupyter Notebooks Test1 - Explore Data](images/Display-Explore-Test1-Data.png)
 
    Issues and Workarrounds 
 =========
@@ -60,7 +60,7 @@
 
    Licensing
 =========
-  Our "lost_saturn" docker container with jupyter SparkML and AutoML Ho2.ai is licensed under the Apache License, Version 2.0. See
+  Our "jupyter_container" docker container with jupyter SparkML and AutoML Ho2.ai is licensed under the Apache License, Version 2.0. See
   [LICENSE](https://github.com/jpacerqueira/Jupyter_Spark_H2O_Kafka_Client_Setup/blob/master/README.md) for the full license text.
  
   Apache Spark, Apache Arrow, H2o.ai.jar and Open-JDK8 are licensed under the Apache 2.0 License . Python, PyArrow and pi py H2o.ai under the GNU GPL License
