@@ -1,0 +1,3322 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_883969178dc34b41b9b5beec92de6ae6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_883969178dc34b41b9b5beec92de6ae6" ></div>
+        
+</body>
+<script>    
+    
+            var map_883969178dc34b41b9b5beec92de6ae6 = L.map(
+                "map_883969178dc34b41b9b5beec92de6ae6",
+                {
+                    center: [42.350440724681775, -71.097283],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_31b3420c275a430ea0cdb939b66a66c9 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_883969178dc34b41b9b5beec92de6ae6);
+        
+    
+            var marker_cluster_f19154a06ae241c881fb30b3a30a930a = L.markerClusterGroup(
+                {}
+            );
+            map_883969178dc34b41b9b5beec92de6ae6.addLayer(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var marker_35d6d2fc54b64ae0b7435fd4f9bda55a = L.marker(
+                [42.38879868107347, -71.00412057520259],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_cbe3ff1b68c54610a91a643d3bf3652a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_35d6d2fc54b64ae0b7435fd4f9bda55a.setIcon(icon_cbe3ff1b68c54610a91a643d3bf3652a);
+        
+    
+        var popup_dda75ce982a346808dfed650e2dc1560 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_31fa7ac549764b5fb277a175c7e17ea1 = $(`<div id="html_31fa7ac549764b5fb277a175c7e17ea1" style="width: 100.0%; height: 100.0%;">Kennedy Patrick Elem</div>`)[0];
+            popup_dda75ce982a346808dfed650e2dc1560.setContent(html_31fa7ac549764b5fb277a175c7e17ea1);
+        
+
+        marker_35d6d2fc54b64ae0b7435fd4f9bda55a.bindPopup(popup_dda75ce982a346808dfed650e2dc1560)
+        ;
+
+        
+    
+    
+            var marker_0cd3bd1b49924c52b3d380af810ac305 = L.marker(
+                [42.378545298399885, -71.03048029238414],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_30d37e83ad11437fa4b09e3e3d397eb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0cd3bd1b49924c52b3d380af810ac305.setIcon(icon_30d37e83ad11437fa4b09e3e3d397eb7);
+        
+    
+        var popup_d5e8c7ee88dd42df93bdc8ff72497985 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ded2a924f75440929c6a5fdfafe758d0 = $(`<div id="html_ded2a924f75440929c6a5fdfafe758d0" style="width: 100.0%; height: 100.0%;">Otis Elementary</div>`)[0];
+            popup_d5e8c7ee88dd42df93bdc8ff72497985.setContent(html_ded2a924f75440929c6a5fdfafe758d0);
+        
+
+        marker_0cd3bd1b49924c52b3d380af810ac305.bindPopup(popup_d5e8c7ee88dd42df93bdc8ff72497985)
+        ;
+
+        
+    
+    
+            var marker_1dc8cb70d9ce464f8f82f86b08387572 = L.marker(
+                [42.37527867715065, -71.03389058391973],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b3ddafbf01054a8b9fcf7b835b9eca29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1dc8cb70d9ce464f8f82f86b08387572.setIcon(icon_b3ddafbf01054a8b9fcf7b835b9eca29);
+        
+    
+        var popup_26eabc08213f4fb3af71a90a997d303a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8eced51c49b44f8c8871991170981704 = $(`<div id="html_8eced51c49b44f8c8871991170981704" style="width: 100.0%; height: 100.0%;">O&#39;Donnell Elementary</div>`)[0];
+            popup_26eabc08213f4fb3af71a90a997d303a.setContent(html_8eced51c49b44f8c8871991170981704);
+        
+
+        marker_1dc8cb70d9ce464f8f82f86b08387572.bindPopup(popup_26eabc08213f4fb3af71a90a997d303a)
+        ;
+
+        
+    
+    
+            var marker_2ba2fb0dc5de40a9b3ee9dd621627cb5 = L.marker(
+                [42.37808861721215, -71.03801071815423],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_81a62194f5de499ab001e085423691bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2ba2fb0dc5de40a9b3ee9dd621627cb5.setIcon(icon_81a62194f5de499ab001e085423691bd);
+        
+    
+        var popup_5b610bf2e4dd42348da4401dc4fca942 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a160101a881a4c47b62de8e3f0218802 = $(`<div id="html_a160101a881a4c47b62de8e3f0218802" style="width: 100.0%; height: 100.0%;">East Boston High</div>`)[0];
+            popup_5b610bf2e4dd42348da4401dc4fca942.setContent(html_a160101a881a4c47b62de8e3f0218802);
+        
+
+        marker_2ba2fb0dc5de40a9b3ee9dd621627cb5.bindPopup(popup_5b610bf2e4dd42348da4401dc4fca942)
+        ;
+
+        
+    
+    
+            var marker_f8ed7209b5da4ed58a6cecaf67b3b067 = L.marker(
+                [42.3809574571799, -71.03492143425565],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_5440b272cc4b4b8b8bae9183c02c2d90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f8ed7209b5da4ed58a6cecaf67b3b067.setIcon(icon_5440b272cc4b4b8b8bae9183c02c2d90);
+        
+    
+        var popup_84c220820d104ed2a63a189e1bf399c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc737fc67c1a4017b3417f34cfd5756f = $(`<div id="html_dc737fc67c1a4017b3417f34cfd5756f" style="width: 100.0%; height: 100.0%;">Umana Academy</div>`)[0];
+            popup_84c220820d104ed2a63a189e1bf399c2.setContent(html_dc737fc67c1a4017b3417f34cfd5756f);
+        
+
+        marker_f8ed7209b5da4ed58a6cecaf67b3b067.bindPopup(popup_84c220820d104ed2a63a189e1bf399c2)
+        ;
+
+        
+    
+    
+            var marker_39a7b9296841426e93d45e5585a43317 = L.marker(
+                [42.378289993261454, -71.04032982455949],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_92ce88c8446543c5849206e71fafcc8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_39a7b9296841426e93d45e5585a43317.setIcon(icon_92ce88c8446543c5849206e71fafcc8a);
+        
+    
+        var popup_252e3c4c91ca4860a24a0e1ff8cd8aaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68f6b20fc15244e6a535b76ab279b071 = $(`<div id="html_68f6b20fc15244e6a535b76ab279b071" style="width: 100.0%; height: 100.0%;">East Boston EEC</div>`)[0];
+            popup_252e3c4c91ca4860a24a0e1ff8cd8aaf.setContent(html_68f6b20fc15244e6a535b76ab279b071);
+        
+
+        marker_39a7b9296841426e93d45e5585a43317.bindPopup(popup_252e3c4c91ca4860a24a0e1ff8cd8aaf)
+        ;
+
+        
+    
+    
+            var marker_72a6d6f5e5784fcda0b92a223bae4807 = L.marker(
+                [42.36967602277351, -71.03411994921963],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_3e2e8cdfc29f4d9b826f185ec0989b0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_72a6d6f5e5784fcda0b92a223bae4807.setIcon(icon_3e2e8cdfc29f4d9b826f185ec0989b0e);
+        
+    
+        var popup_7f18cbdcd7c24415805ddeb878de477b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c810870a4eb468dbda2527f44131c0c = $(`<div id="html_7c810870a4eb468dbda2527f44131c0c" style="width: 100.0%; height: 100.0%;">McKay K-8</div>`)[0];
+            popup_7f18cbdcd7c24415805ddeb878de477b.setContent(html_7c810870a4eb468dbda2527f44131c0c);
+        
+
+        marker_72a6d6f5e5784fcda0b92a223bae4807.bindPopup(popup_7f18cbdcd7c24415805ddeb878de477b)
+        ;
+
+        
+    
+    
+            var marker_d82de9c2e2b248febba7d9275e1bb3da = L.marker(
+                [42.36927367595972, -71.0343075831713],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_8a3c10bb75454336871ab02e6ed69f9f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d82de9c2e2b248febba7d9275e1bb3da.setIcon(icon_8a3c10bb75454336871ab02e6ed69f9f);
+        
+    
+        var popup_aef2a381419645f1b619b0936b4d6d5e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94be40b1f0274528b1d5b80ade36e961 = $(`<div id="html_94be40b1f0274528b1d5b80ade36e961" style="width: 100.0%; height: 100.0%;">Adams Elementary</div>`)[0];
+            popup_aef2a381419645f1b619b0936b4d6d5e.setContent(html_94be40b1f0274528b1d5b80ade36e961);
+        
+
+        marker_d82de9c2e2b248febba7d9275e1bb3da.bindPopup(popup_aef2a381419645f1b619b0936b4d6d5e)
+        ;
+
+        
+    
+    
+            var marker_82b4b60891e44a71ad1c0bc22122160f = L.marker(
+                [42.36556300509928, -71.03489031104762],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_49026a1babcd4fbfa8cbb097119a6270 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_82b4b60891e44a71ad1c0bc22122160f.setIcon(icon_49026a1babcd4fbfa8cbb097119a6270);
+        
+    
+        var popup_ec2f325b5b914092bd3ddb73b20b7238 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0ca99971a1a41d9a22fe19313320e04 = $(`<div id="html_f0ca99971a1a41d9a22fe19313320e04" style="width: 100.0%; height: 100.0%;">Harvard/Kent Elem</div>`)[0];
+            popup_ec2f325b5b914092bd3ddb73b20b7238.setContent(html_f0ca99971a1a41d9a22fe19313320e04);
+        
+
+        marker_82b4b60891e44a71ad1c0bc22122160f.bindPopup(popup_ec2f325b5b914092bd3ddb73b20b7238)
+        ;
+
+        
+    
+    
+            var marker_aa7073841ec64591b52fcc787dc8a957 = L.marker(
+                [42.37662851740173, -71.05749224520838],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_d8fd1b29b76f4b7bbf19e1655c7d12f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aa7073841ec64591b52fcc787dc8a957.setIcon(icon_d8fd1b29b76f4b7bbf19e1655c7d12f2);
+        
+    
+        var popup_be2c78a34fe54a1da11501423819b9ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1afd53fac3bb4c62bd2fe51f2ac61924 = $(`<div id="html_1afd53fac3bb4c62bd2fe51f2ac61924" style="width: 100.0%; height: 100.0%;">Charlestown High</div>`)[0];
+            popup_be2c78a34fe54a1da11501423819b9ca.setContent(html_1afd53fac3bb4c62bd2fe51f2ac61924);
+        
+
+        marker_aa7073841ec64591b52fcc787dc8a957.bindPopup(popup_be2c78a34fe54a1da11501423819b9ca)
+        ;
+
+        
+    
+    
+            var marker_4cc2f0be3be3470896be9863ea60e71e = L.marker(
+                [42.38011867740617, -71.06107059301948],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_cd7f31dd30464c63acc06d02f0bf5427 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_4cc2f0be3be3470896be9863ea60e71e.setIcon(icon_cd7f31dd30464c63acc06d02f0bf5427);
+        
+    
+        var popup_f5eb66536c754f3d93612f8909c691f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24ff1de8bc5e4cd0a2bd561b73155269 = $(`<div id="html_24ff1de8bc5e4cd0a2bd561b73155269" style="width: 100.0%; height: 100.0%;">Edwards Middle</div>`)[0];
+            popup_f5eb66536c754f3d93612f8909c691f3.setContent(html_24ff1de8bc5e4cd0a2bd561b73155269);
+        
+
+        marker_4cc2f0be3be3470896be9863ea60e71e.bindPopup(popup_f5eb66536c754f3d93612f8909c691f3)
+        ;
+
+        
+    
+    
+            var marker_2772662a1d5044eda8a99f232938413e = L.marker(
+                [42.37908035547464, -71.06723124432145],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ddbd995da07c409db67c2d4fba5e781a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2772662a1d5044eda8a99f232938413e.setIcon(icon_ddbd995da07c409db67c2d4fba5e781a);
+        
+    
+        var popup_b50d4de2aa0e4fce92606d738c5e2f8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7d02067e6244d84a87f5d88f329329c = $(`<div id="html_b7d02067e6244d84a87f5d88f329329c" style="width: 100.0%; height: 100.0%;">Warren/Prescott K-8</div>`)[0];
+            popup_b50d4de2aa0e4fce92606d738c5e2f8c.setContent(html_b7d02067e6244d84a87f5d88f329329c);
+        
+
+        marker_2772662a1d5044eda8a99f232938413e.bindPopup(popup_b50d4de2aa0e4fce92606d738c5e2f8c)
+        ;
+
+        
+    
+    
+            var marker_ba7e6e8bc5a44c25ba7aba2a054daf92 = L.marker(
+                [42.37799867657933, -71.06443059275855],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_86407a25940140c1986175d34c8b897e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ba7e6e8bc5a44c25ba7aba2a054daf92.setIcon(icon_86407a25940140c1986175d34c8b897e);
+        
+    
+        var popup_6eaf5495133748e783539a71470737cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89d28b8087804620a6ea83ab03c9ea27 = $(`<div id="html_89d28b8087804620a6ea83ab03c9ea27" style="width: 100.0%; height: 100.0%;">Eliot K-8</div>`)[0];
+            popup_6eaf5495133748e783539a71470737cf.setContent(html_89d28b8087804620a6ea83ab03c9ea27);
+        
+
+        marker_ba7e6e8bc5a44c25ba7aba2a054daf92.bindPopup(popup_6eaf5495133748e783539a71470737cf)
+        ;
+
+        
+    
+    
+            var marker_ff7083bfe5f044a399cbff85396d5f95 = L.marker(
+                [42.36610274159122, -71.0533696697075],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_631e87246f1f4943bb028d46b8e2fe7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ff7083bfe5f044a399cbff85396d5f95.setIcon(icon_631e87246f1f4943bb028d46b8e2fe7f);
+        
+    
+        var popup_4875e1c609054fa6b5f6fcb42c947d3a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b0a476b68e0404193c25f53f2432791 = $(`<div id="html_1b0a476b68e0404193c25f53f2432791" style="width: 100.0%; height: 100.0%;">Quincy Upper School</div>`)[0];
+            popup_4875e1c609054fa6b5f6fcb42c947d3a.setContent(html_1b0a476b68e0404193c25f53f2432791);
+        
+
+        marker_ff7083bfe5f044a399cbff85396d5f95.bindPopup(popup_4875e1c609054fa6b5f6fcb42c947d3a)
+        ;
+
+        
+    
+    
+            var marker_39403815ebcf45fbbd1f80f27974036f = L.marker(
+                [42.348408293305276, -71.06905024656571],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_91532d632c024cafa06bc08b7187fddc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_39403815ebcf45fbbd1f80f27974036f.setIcon(icon_91532d632c024cafa06bc08b7187fddc);
+        
+    
+        var popup_c1fce750d9314dbf9d51c47b10c1fe5b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_385b3ebbb505406daf4028da20dd8f45 = $(`<div id="html_385b3ebbb505406daf4028da20dd8f45" style="width: 100.0%; height: 100.0%;">Quincy Lower (K-5)</div>`)[0];
+            popup_c1fce750d9314dbf9d51c47b10c1fe5b.setContent(html_385b3ebbb505406daf4028da20dd8f45);
+        
+
+        marker_39403815ebcf45fbbd1f80f27974036f.bindPopup(popup_c1fce750d9314dbf9d51c47b10c1fe5b)
+        ;
+
+        
+    
+    
+            var marker_1f8cc1b97efb4293a366dcc836edb6c6 = L.marker(
+                [42.34797867054077, -71.06492059233261],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_83c6f796518d457e88467a05c50ca60d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_1f8cc1b97efb4293a366dcc836edb6c6.setIcon(icon_83c6f796518d457e88467a05c50ca60d);
+        
+    
+        var popup_65710734ac4f485ba0f9b3702ce78ae9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd6dc1d6b2e64c0b9bcf1dd32b42f811 = $(`<div id="html_cd6dc1d6b2e64c0b9bcf1dd32b42f811" style="width: 100.0%; height: 100.0%;">Snowden International</div>`)[0];
+            popup_65710734ac4f485ba0f9b3702ce78ae9.setContent(html_cd6dc1d6b2e64c0b9bcf1dd32b42f811);
+        
+
+        marker_1f8cc1b97efb4293a366dcc836edb6c6.bindPopup(popup_65710734ac4f485ba0f9b3702ce78ae9)
+        ;
+
+        
+    
+    
+            var marker_a8571bddce4348359d48f7c51d8d7ddb = L.marker(
+                [42.35057867099926, -71.07797059639059],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_79ac8e086faf49999150e2cfe502970a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a8571bddce4348359d48f7c51d8d7ddb.setIcon(icon_79ac8e086faf49999150e2cfe502970a);
+        
+    
+        var popup_54c4e6b0bb94424c8b0c7949d7d770d6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_956176f5a6db42fb90ffbb96b484b4d1 = $(`<div id="html_956176f5a6db42fb90ffbb96b484b4d1" style="width: 100.0%; height: 100.0%;">McKinley Elementary</div>`)[0];
+            popup_54c4e6b0bb94424c8b0c7949d7d770d6.setContent(html_956176f5a6db42fb90ffbb96b484b4d1);
+        
+
+        marker_a8571bddce4348359d48f7c51d8d7ddb.bindPopup(popup_54c4e6b0bb94424c8b0c7949d7d770d6)
+        ;
+
+        
+    
+    
+            var marker_fa1e36d10ab14440a7f81e4da7b7282a = L.marker(
+                [42.344368669560005, -71.07352059401761],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_821b289678f648e7a6b2fd408a74c631 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fa1e36d10ab14440a7f81e4da7b7282a.setIcon(icon_821b289678f648e7a6b2fd408a74c631);
+        
+    
+        var popup_efd2add8a9e84806a0203dc7e1afd08e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_42d93d681cb94b12a4570cc357ff17ed = $(`<div id="html_42d93d681cb94b12a4570cc357ff17ed" style="width: 100.0%; height: 100.0%;">McKinley So. End Acad</div>`)[0];
+            popup_efd2add8a9e84806a0203dc7e1afd08e.setContent(html_42d93d681cb94b12a4570cc357ff17ed);
+        
+
+        marker_fa1e36d10ab14440a7f81e4da7b7282a.bindPopup(popup_efd2add8a9e84806a0203dc7e1afd08e)
+        ;
+
+        
+    
+    
+            var marker_29a6240bdc8d4f9f87d77c529bf145df = L.marker(
+                [42.344368669560005, -71.07352059401761],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_9b4ce5f95b6e457ca3f96d89058b37b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_29a6240bdc8d4f9f87d77c529bf145df.setIcon(icon_9b4ce5f95b6e457ca3f96d89058b37b2);
+        
+    
+        var popup_86996e94e2da4b9fa4483f2c1bcb6ca8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_184e07612ac940f2b5026556a6b761e5 = $(`<div id="html_184e07612ac940f2b5026556a6b761e5" style="width: 100.0%; height: 100.0%;">Hurley K-8</div>`)[0];
+            popup_86996e94e2da4b9fa4483f2c1bcb6ca8.setContent(html_184e07612ac940f2b5026556a6b761e5);
+        
+
+        marker_29a6240bdc8d4f9f87d77c529bf145df.bindPopup(popup_86996e94e2da4b9fa4483f2c1bcb6ca8)
+        ;
+
+        
+    
+    
+            var marker_2d6782e3f073428dbb857d518ac615cf = L.marker(
+                [42.338758668670366, -71.07774059582496],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_1c07230a14ed4780915ed93301178575 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2d6782e3f073428dbb857d518ac615cf.setIcon(icon_1c07230a14ed4780915ed93301178575);
+        
+    
+        var popup_4f51e8f5d0424dee95a88cfc670402af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28af5e6d90764665887a07498bc893f8 = $(`<div id="html_28af5e6d90764665887a07498bc893f8" style="width: 100.0%; height: 100.0%;">Blackstone Elementary</div>`)[0];
+            popup_4f51e8f5d0424dee95a88cfc670402af.setContent(html_28af5e6d90764665887a07498bc893f8);
+        
+
+        marker_2d6782e3f073428dbb857d518ac615cf.bindPopup(popup_4f51e8f5d0424dee95a88cfc670402af)
+        ;
+
+        
+    
+    
+            var marker_a98bfe0314014f03b950de44160e6077 = L.marker(
+                [42.340737551544926, -71.07246106627973],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_17715ef5aaf347d9ba96e357732e9162 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a98bfe0314014f03b950de44160e6077.setIcon(icon_17715ef5aaf347d9ba96e357732e9162);
+        
+    
+        var popup_9409a5e7fbfb4fcaa4ac6bc7191d5ace = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffa2f17b773945c68b7437b3c092cb1c = $(`<div id="html_ffa2f17b773945c68b7437b3c092cb1c" style="width: 100.0%; height: 100.0%;">Mason Elementary</div>`)[0];
+            popup_9409a5e7fbfb4fcaa4ac6bc7191d5ace.setContent(html_ffa2f17b773945c68b7437b3c092cb1c);
+        
+
+        marker_a98bfe0314014f03b950de44160e6077.bindPopup(popup_9409a5e7fbfb4fcaa4ac6bc7191d5ace)
+        ;
+
+        
+    
+    
+            var marker_719bbb445023430ca6f92473175e20b4 = L.marker(
+                [42.32621703137502, -71.07133140528097],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_15955860aaf54cf894c23ba40c6483bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_719bbb445023430ca6f92473175e20b4.setIcon(icon_15955860aaf54cf894c23ba40c6483bb);
+        
+    
+        var popup_e35827c7d98149fa8156bb1f07aec37d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f89bbaef54b4393a5ecf09ff49529de = $(`<div id="html_1f89bbaef54b4393a5ecf09ff49529de" style="width: 100.0%; height: 100.0%;">Clap Elementary</div>`)[0];
+            popup_e35827c7d98149fa8156bb1f07aec37d.setContent(html_1f89bbaef54b4393a5ecf09ff49529de);
+        
+
+        marker_719bbb445023430ca6f92473175e20b4.bindPopup(popup_e35827c7d98149fa8156bb1f07aec37d)
+        ;
+
+        
+    
+    
+            var marker_e6bb5a40960b4ca6b78751496b5ca7e9 = L.marker(
+                [42.32317619487457, -71.05819134420365],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_739ba9fd484e4d86bff2d50c1fdfda32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e6bb5a40960b4ca6b78751496b5ca7e9.setIcon(icon_739ba9fd484e4d86bff2d50c1fdfda32);
+        
+    
+        var popup_b1aaa4d455c64090a29b8c129d08f42b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b14ef8a6620347879f51aa90ae1bfede = $(`<div id="html_b14ef8a6620347879f51aa90ae1bfede" style="width: 100.0%; height: 100.0%;">Perkins Elementary</div>`)[0];
+            popup_b1aaa4d455c64090a29b8c129d08f42b.setContent(html_b14ef8a6620347879f51aa90ae1bfede);
+        
+
+        marker_e6bb5a40960b4ca6b78751496b5ca7e9.bindPopup(popup_b1aaa4d455c64090a29b8c129d08f42b)
+        ;
+
+        
+    
+    
+            var marker_ad488d75dbc241afb858385734c8708c = L.marker(
+                [42.33131866845259, -71.05054058589411],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_296d344ddded43e9891c47fef765d24a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ad488d75dbc241afb858385734c8708c.setIcon(icon_296d344ddded43e9891c47fef765d24a);
+        
+    
+        var popup_23b8ffab0a8c4b8aaa3a37dde8a9dafd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5912ca6e87e84c678e5764e2960259e1 = $(`<div id="html_5912ca6e87e84c678e5764e2960259e1" style="width: 100.0%; height: 100.0%;">Excel High</div>`)[0];
+            popup_23b8ffab0a8c4b8aaa3a37dde8a9dafd.setContent(html_5912ca6e87e84c678e5764e2960259e1);
+        
+
+        marker_ad488d75dbc241afb858385734c8708c.bindPopup(popup_23b8ffab0a8c4b8aaa3a37dde8a9dafd)
+        ;
+
+        
+    
+    
+            var marker_53ffa25cb9cf4953b9a03450d58963ad = L.marker(
+                [42.332868668649844, -71.04489058410691],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_9065fab8dfc44f87adf48d9b895eb7c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_53ffa25cb9cf4953b9a03450d58963ad.setIcon(icon_9065fab8dfc44f87adf48d9b895eb7c3);
+        
+    
+        var popup_ef329b58f50e426ca6c44537ff04f764 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1ec60f470ea45aeb2e0f42163b6be85 = $(`<div id="html_e1ec60f470ea45aeb2e0f42163b6be85" style="width: 100.0%; height: 100.0%;">Tynan Elementary</div>`)[0];
+            popup_ef329b58f50e426ca6c44537ff04f764.setContent(html_e1ec60f470ea45aeb2e0f42163b6be85);
+        
+
+        marker_53ffa25cb9cf4953b9a03450d58963ad.bindPopup(popup_ef329b58f50e426ca6c44537ff04f764)
+        ;
+
+        
+    
+    
+            var marker_86e2377dc0ac44ccbcbe629e592fb41d = L.marker(
+                [42.334870707795595, -71.03841128441215],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_3fc2665fd0634a1c980631a97ea11121 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_86e2377dc0ac44ccbcbe629e592fb41d.setIcon(icon_3fc2665fd0634a1c980631a97ea11121);
+        
+    
+        var popup_e10f2aa1e15e4044a5e944845404956c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38d308724d3b4a2199acfd3cdc658ba5 = $(`<div id="html_38d308724d3b4a2199acfd3cdc658ba5" style="width: 100.0%; height: 100.0%;">Perry K-8</div>`)[0];
+            popup_e10f2aa1e15e4044a5e944845404956c.setContent(html_38d308724d3b4a2199acfd3cdc658ba5);
+        
+
+        marker_86e2377dc0ac44ccbcbe629e592fb41d.bindPopup(popup_e10f2aa1e15e4044a5e944845404956c)
+        ;
+
+        
+    
+    
+            var marker_07064fc73478498a80cf412e3e9ea235 = L.marker(
+                [42.332120768615546, -71.03019874375977],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_be3d307e639e4ac487d6884e21665d01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_07064fc73478498a80cf412e3e9ea235.setIcon(icon_be3d307e639e4ac487d6884e21665d01);
+        
+    
+        var popup_4c83f7d7718f485cb86c24da6137736f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d76b9172b55465c8c02effcaf0e9f42 = $(`<div id="html_7d76b9172b55465c8c02effcaf0e9f42" style="width: 100.0%; height: 100.0%;">Russell Elementary</div>`)[0];
+            popup_4c83f7d7718f485cb86c24da6137736f.setContent(html_7d76b9172b55465c8c02effcaf0e9f42);
+        
+
+        marker_07064fc73478498a80cf412e3e9ea235.bindPopup(popup_4c83f7d7718f485cb86c24da6137736f)
+        ;
+
+        
+    
+    
+            var marker_6f13f5673afb4b1cac030d45200e92f2 = L.marker(
+                [42.320382411340674, -71.0595494085743],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_da5c0b9f648843b3b358fb0c1f7f08d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6f13f5673afb4b1cac030d45200e92f2.setIcon(icon_da5c0b9f648843b3b358fb0c1f7f08d0);
+        
+    
+        var popup_e9f79aafb8554c81846778ee3e1ec478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_961736deb1d249dba03bc80cb23cac00 = $(`<div id="html_961736deb1d249dba03bc80cb23cac00" style="width: 100.0%; height: 100.0%;">Orchard Gardens K-8</div>`)[0];
+            popup_e9f79aafb8554c81846778ee3e1ec478.setContent(html_961736deb1d249dba03bc80cb23cac00);
+        
+
+        marker_6f13f5673afb4b1cac030d45200e92f2.bindPopup(popup_e9f79aafb8554c81846778ee3e1ec478)
+        ;
+
+        
+    
+    
+            var marker_03a971e6c0ec446e8390be61fefea0a4 = L.marker(
+                [42.330275209898616, -71.07790901897478],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_f3473b5cf36144de907e50f443cf7bde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_03a971e6c0ec446e8390be61fefea0a4.setIcon(icon_f3473b5cf36144de907e50f443cf7bde);
+        
+    
+        var popup_e2ab190a1d8c49ada7b64a032feaba4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0c9ba1629ce6450b8bf9fb3c771a36d5 = $(`<div id="html_0c9ba1629ce6450b8bf9fb3c771a36d5" style="width: 100.0%; height: 100.0%;">West Roxbury Academy</div>`)[0];
+            popup_e2ab190a1d8c49ada7b64a032feaba4c.setContent(html_0c9ba1629ce6450b8bf9fb3c771a36d5);
+        
+
+        marker_03a971e6c0ec446e8390be61fefea0a4.bindPopup(popup_e2ab190a1d8c49ada7b64a032feaba4c)
+        ;
+
+        
+    
+    
+            var marker_ba829ce415c24d33a723b0f38dcf1721 = L.marker(
+                [42.282268654205886, -71.17434062400517],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_5a1b38f1ef32468ca24f4ff1f5fbfb40 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_ba829ce415c24d33a723b0f38dcf1721.setIcon(icon_5a1b38f1ef32468ca24f4ff1f5fbfb40);
+        
+    
+        var popup_ae5a0a70aa3745ec98a14d1c3e12dafe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d1e7ec09e6fe4ae68b7d602e85f119f8 = $(`<div id="html_d1e7ec09e6fe4ae68b7d602e85f119f8" style="width: 100.0%; height: 100.0%;">UP Academy Boston</div>`)[0];
+            popup_ae5a0a70aa3745ec98a14d1c3e12dafe.setContent(html_d1e7ec09e6fe4ae68b7d602e85f119f8);
+        
+
+        marker_ba829ce415c24d33a723b0f38dcf1721.bindPopup(popup_ae5a0a70aa3745ec98a14d1c3e12dafe)
+        ;
+
+        
+    
+    
+            var marker_d7475e2566db42d985b07a160a49d22e = L.marker(
+                [42.33357372197066, -71.05042965676314],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ebca4c0b8f914ccdb6395736c719c6f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d7475e2566db42d985b07a160a49d22e.setIcon(icon_ebca4c0b8f914ccdb6395736c719c6f7);
+        
+    
+        var popup_64f25c8c1256448f9c86cf761f71ca5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7fa086923f2471eba4b4384e261e213 = $(`<div id="html_c7fa086923f2471eba4b4384e261e213" style="width: 100.0%; height: 100.0%;">Boston Day and Evening Academy</div>`)[0];
+            popup_64f25c8c1256448f9c86cf761f71ca5c.setContent(html_c7fa086923f2471eba4b4384e261e213);
+        
+
+        marker_d7475e2566db42d985b07a160a49d22e.bindPopup(popup_64f25c8c1256448f9c86cf761f71ca5c)
+        ;
+
+        
+    
+    
+            var marker_ff694ddc4dee4973b6b8d32471b036e1 = L.marker(
+                [42.32702866604833, -71.08171059688863],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ea84aefc182d4751bce7144fc2998f07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ff694ddc4dee4973b6b8d32471b036e1.setIcon(icon_ea84aefc182d4751bce7144fc2998f07);
+        
+    
+        var popup_dc9d1fb55a0749bfb9184bb7d9edaaff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3fbf7089fc241bcbc9221dfc874a31d = $(`<div id="html_e3fbf7089fc241bcbc9221dfc874a31d" style="width: 100.0%; height: 100.0%;">Carter Center</div>`)[0];
+            popup_dc9d1fb55a0749bfb9184bb7d9edaaff.setContent(html_e3fbf7089fc241bcbc9221dfc874a31d);
+        
+
+        marker_ff694ddc4dee4973b6b8d32471b036e1.bindPopup(popup_dc9d1fb55a0749bfb9184bb7d9edaaff)
+        ;
+
+        
+    
+    
+            var marker_20544acb92ed498ca1366115e802f3d9 = L.marker(
+                [42.34055977442439, -71.08383997549593],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_94b2f89cea2d4df293debb4f21ca3d98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_20544acb92ed498ca1366115e802f3d9.setIcon(icon_94b2f89cea2d4df293debb4f21ca3d98);
+        
+    
+        var popup_14031fee2dca412881ca5b2a08501fc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c27a79d37620459184567507f426be26 = $(`<div id="html_c27a79d37620459184567507f426be26" style="width: 100.0%; height: 100.0%;">Madison Park High</div>`)[0];
+            popup_14031fee2dca412881ca5b2a08501fc4.setContent(html_c27a79d37620459184567507f426be26);
+        
+
+        marker_20544acb92ed498ca1366115e802f3d9.bindPopup(popup_14031fee2dca412881ca5b2a08501fc4)
+        ;
+
+        
+    
+    
+            var marker_0cedc4820d6b490885962e358a25afcb = L.marker(
+                [42.33175866666857, -71.09029059972147],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_98e8fa8cb2c8456b964c9b46ae8f2f18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brick", "prefix": "glyphicon"}
+            );
+            marker_0cedc4820d6b490885962e358a25afcb.setIcon(icon_98e8fa8cb2c8456b964c9b46ae8f2f18);
+        
+    
+        var popup_e3cf4ee5b8154e6a84078ae51a6a382c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a69a1f5664d451e91381e80b42e6d01 = $(`<div id="html_4a69a1f5664d451e91381e80b42e6d01" style="width: 100.0%; height: 100.0%;">O&#39;Bryant Math &amp; Sci.</div>`)[0];
+            popup_e3cf4ee5b8154e6a84078ae51a6a382c.setContent(html_4a69a1f5664d451e91381e80b42e6d01);
+        
+
+        marker_0cedc4820d6b490885962e358a25afcb.bindPopup(popup_e3cf4ee5b8154e6a84078ae51a6a382c)
+        ;
+
+        
+    
+    
+            var marker_4943f4e4970f4764b592171281aa4e00 = L.marker(
+                [42.332038667227394, -71.08879259908205],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b49ec46b9ff144f3a49d2d85d24cec5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_4943f4e4970f4764b592171281aa4e00.setIcon(icon_b49ec46b9ff144f3a49d2d85d24cec5a);
+        
+    
+        var popup_d96df31613aa468fb6c15746322214cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1806b6b3101d4c728ebf9f05f5c2cdeb = $(`<div id="html_1806b6b3101d4c728ebf9f05f5c2cdeb" style="width: 100.0%; height: 100.0%;">Timilty Middle</div>`)[0];
+            popup_d96df31613aa468fb6c15746322214cb.setContent(html_1806b6b3101d4c728ebf9f05f5c2cdeb);
+        
+
+        marker_4943f4e4970f4764b592171281aa4e00.bindPopup(popup_d96df31613aa468fb6c15746322214cb)
+        ;
+
+        
+    
+    
+            var marker_1fe024950a834affa42c7c5ee97694d8 = L.marker(
+                [42.3303986662493, -71.09097059931555],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_cc1c61ca75c94cf0842aa0a0a36f4486 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1fe024950a834affa42c7c5ee97694d8.setIcon(icon_cc1c61ca75c94cf0842aa0a0a36f4486);
+        
+    
+        var popup_08c34ae336ce4d12ae41c2283a455533 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bff1e28cdba24d819281dfb728eef3ca = $(`<div id="html_bff1e28cdba24d819281dfb728eef3ca" style="width: 100.0%; height: 100.0%;">Hale Elementary</div>`)[0];
+            popup_08c34ae336ce4d12ae41c2283a455533.setContent(html_bff1e28cdba24d819281dfb728eef3ca);
+        
+
+        marker_1fe024950a834affa42c7c5ee97694d8.bindPopup(popup_08c34ae336ce4d12ae41c2283a455533)
+        ;
+
+        
+    
+    
+            var marker_7b804ac7acc24c47a0fd616a77282a24 = L.marker(
+                [42.32554866561233, -71.09104059939536],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ca105da68b5349bb90d9fdcddcec9ddd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7b804ac7acc24c47a0fd616a77282a24.setIcon(icon_ca105da68b5349bb90d9fdcddcec9ddd);
+        
+    
+        var popup_6514538158ef462e90079b51dd6190a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64a4e130efb748a3a8fda751999db5a5 = $(`<div id="html_64a4e130efb748a3a8fda751999db5a5" style="width: 100.0%; height: 100.0%;">Higginson/Lewis (3-8)</div>`)[0];
+            popup_6514538158ef462e90079b51dd6190a1.setContent(html_64a4e130efb748a3a8fda751999db5a5);
+        
+
+        marker_7b804ac7acc24c47a0fd616a77282a24.bindPopup(popup_6514538158ef462e90079b51dd6190a1)
+        ;
+
+        
+    
+    
+            var marker_29f549e39de14ae899f703d9d5463f22 = L.marker(
+                [42.32094834318213, -71.08630956667422],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_8890fd4d99984e7fa080d20d82525d2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_29f549e39de14ae899f703d9d5463f22.setIcon(icon_8890fd4d99984e7fa080d20d82525d2a);
+        
+    
+        var popup_234cabddbe6f401c9e2a38be4bd80d6f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f06f28479bf8488ca785ef5d969f2e8b = $(`<div id="html_f06f28479bf8488ca785ef5d969f2e8b" style="width: 100.0%; height: 100.0%;">Haynes EEC</div>`)[0];
+            popup_234cabddbe6f401c9e2a38be4bd80d6f.setContent(html_f06f28479bf8488ca785ef5d969f2e8b);
+        
+
+        marker_29f549e39de14ae899f703d9d5463f22.bindPopup(popup_234cabddbe6f401c9e2a38be4bd80d6f)
+        ;
+
+        
+    
+    
+            var marker_f2515642d24048fb8c9c2eca5ce6ba70 = L.marker(
+                [42.31496685447941, -71.07893912909216],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b394b801876f4b56bba9750e16d85276 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f2515642d24048fb8c9c2eca5ce6ba70.setIcon(icon_b394b801876f4b56bba9750e16d85276);
+        
+    
+        var popup_2ac19fb8d35d416dbea110b81a2f6b1f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fc7c33537c44a98b183a16dad3580c9 = $(`<div id="html_9fc7c33537c44a98b183a16dad3580c9" style="width: 100.0%; height: 100.0%;">Trotter K-8</div>`)[0];
+            popup_2ac19fb8d35d416dbea110b81a2f6b1f.setContent(html_9fc7c33537c44a98b183a16dad3580c9);
+        
+
+        marker_f2515642d24048fb8c9c2eca5ce6ba70.bindPopup(popup_2ac19fb8d35d416dbea110b81a2f6b1f)
+        ;
+
+        
+    
+    
+            var marker_80f8dc7b3ebd40c395409c7e9802987e = L.marker(
+                [42.31574003488177, -71.0878410542977],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_d85d7d5cf0ac42e488e00a7c406172b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brick", "prefix": "glyphicon"}
+            );
+            marker_80f8dc7b3ebd40c395409c7e9802987e.setIcon(icon_d85d7d5cf0ac42e488e00a7c406172b6);
+        
+    
+        var popup_b8e2fdcfe60447eb9e8be75b464824ee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d297a05517944bebe7da1a4987d7608 = $(`<div id="html_5d297a05517944bebe7da1a4987d7608" style="width: 100.0%; height: 100.0%;">Boston Latin Academy</div>`)[0];
+            popup_b8e2fdcfe60447eb9e8be75b464824ee.setContent(html_5d297a05517944bebe7da1a4987d7608);
+        
+
+        marker_80f8dc7b3ebd40c395409c7e9802987e.bindPopup(popup_b8e2fdcfe60447eb9e8be75b464824ee)
+        ;
+
+        
+    
+    
+            var marker_caecc7f73bb145d98e68d1f38cee0859 = L.marker(
+                [42.316158664034354, -71.08450059643428],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_eb9a45d86e0b4e6b8b27d9ca15c6d5a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_caecc7f73bb145d98e68d1f38cee0859.setIcon(icon_eb9a45d86e0b4e6b8b27d9ca15c6d5a9);
+        
+    
+        var popup_9a461c1d92da41a78839c3b6dab38ca4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f20cb354ece411c9bd0ad41511ba1dc = $(`<div id="html_6f20cb354ece411c9bd0ad41511ba1dc" style="width: 100.0%; height: 100.0%;">Ellis Elementary</div>`)[0];
+            popup_9a461c1d92da41a78839c3b6dab38ca4.setContent(html_6f20cb354ece411c9bd0ad41511ba1dc);
+        
+
+        marker_caecc7f73bb145d98e68d1f38cee0859.bindPopup(popup_9a461c1d92da41a78839c3b6dab38ca4)
+        ;
+
+        
+    
+    
+            var marker_9dea81b832234ca39df0244200e70afb = L.marker(
+                [42.316334299557376, -71.09289159544575],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_919acad05f5244b89588bac820d16c09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9dea81b832234ca39df0244200e70afb.setIcon(icon_919acad05f5244b89588bac820d16c09);
+        
+    
+        var popup_50e893e0cb7b438f983cf7defc3e701a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fdc8fa0b8d1341f1ad3f38bd741c7140 = $(`<div id="html_fdc8fa0b8d1341f1ad3f38bd741c7140" style="width: 100.0%; height: 100.0%;">Winthrop Elementary</div>`)[0];
+            popup_50e893e0cb7b438f983cf7defc3e701a.setContent(html_fdc8fa0b8d1341f1ad3f38bd741c7140);
+        
+
+        marker_9dea81b832234ca39df0244200e70afb.bindPopup(popup_50e893e0cb7b438f983cf7defc3e701a)
+        ;
+
+        
+    
+    
+            var marker_852276f973c04df8891effbea7d4aa25 = L.marker(
+                [42.3182026505098, -71.07562660083664],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_e3c0c41e48bc42b797ce0915ec0bf1ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_852276f973c04df8891effbea7d4aa25.setIcon(icon_e3c0c41e48bc42b797ce0915ec0bf1ec);
+        
+    
+        var popup_67f35d583c2d478fb3474ce3b05ace00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6b130a8d92294a8e9ef2b3998c1fb28a = $(`<div id="html_6b130a8d92294a8e9ef2b3998c1fb28a" style="width: 100.0%; height: 100.0%;">King K-8</div>`)[0];
+            popup_67f35d583c2d478fb3474ce3b05ace00.setContent(html_6b130a8d92294a8e9ef2b3998c1fb28a);
+        
+
+        marker_852276f973c04df8891effbea7d4aa25.bindPopup(popup_67f35d583c2d478fb3474ce3b05ace00)
+        ;
+
+        
+    
+    
+            var marker_2d0463b1f3d74d14bd1a593287b0c9a4 = L.marker(
+                [42.31129966337307, -71.07619659348022],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_2ee81485245246be9c0aa95ef65671d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_2d0463b1f3d74d14bd1a593287b0c9a4.setIcon(icon_2ee81485245246be9c0aa95ef65671d8);
+        
+    
+        var popup_6a2631bc74f6493eb9c85fed58e248f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d8b743f148b4b068a1ea11bf4487295 = $(`<div id="html_5d8b743f148b4b068a1ea11bf4487295" style="width: 100.0%; height: 100.0%;">Frederick Pilot Middle</div>`)[0];
+            popup_6a2631bc74f6493eb9c85fed58e248f1.setContent(html_5d8b743f148b4b068a1ea11bf4487295);
+        
+
+        marker_2d0463b1f3d74d14bd1a593287b0c9a4.bindPopup(popup_6a2631bc74f6493eb9c85fed58e248f1)
+        ;
+
+        
+    
+    
+            var marker_b65ec2ad4c65432cb5a4b2a6fdd7d0e0 = L.marker(
+                [42.30905402291017, -71.07541082496643],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_d8513057303d4862b67ac0785e83644b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b65ec2ad4c65432cb5a4b2a6fdd7d0e0.setIcon(icon_d8513057303d4862b67ac0785e83644b);
+        
+    
+        var popup_87259604bad34df2af9460f08a4d0ed6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef0417687bdb44258b49810c45c89d3b = $(`<div id="html_ef0417687bdb44258b49810c45c89d3b" style="width: 100.0%; height: 100.0%;">UP Academy Holland</div>`)[0];
+            popup_87259604bad34df2af9460f08a4d0ed6.setContent(html_ef0417687bdb44258b49810c45c89d3b);
+        
+
+        marker_b65ec2ad4c65432cb5a4b2a6fdd7d0e0.bindPopup(popup_87259604bad34df2af9460f08a4d0ed6)
+        ;
+
+        
+    
+    
+            var marker_9b033205048b4c9db11b98ebfdd0d5f4 = L.marker(
+                [42.305618129084884, -71.07385901865639],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_d82ae25e81464369a5ba197f8d241f90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b033205048b4c9db11b98ebfdd0d5f4.setIcon(icon_d82ae25e81464369a5ba197f8d241f90);
+        
+    
+        var popup_5f3ced0d462d44958c2eea0be81a2b26 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ffaca39c5dc4752b36ad7fb2fa83322 = $(`<div id="html_7ffaca39c5dc4752b36ad7fb2fa83322" style="width: 100.0%; height: 100.0%;">Mather Elementary</div>`)[0];
+            popup_5f3ced0d462d44958c2eea0be81a2b26.setContent(html_7ffaca39c5dc4752b36ad7fb2fa83322);
+        
+
+        marker_9b033205048b4c9db11b98ebfdd0d5f4.bindPopup(popup_5f3ced0d462d44958c2eea0be81a2b26)
+        ;
+
+        
+    
+    
+            var marker_1cf2f6334886417992fa971fbb81778f = L.marker(
+                [42.30839621193607, -71.06101177191944],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_dfbfbf1053fd43939d86525ef82a334b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1cf2f6334886417992fa971fbb81778f.setIcon(icon_dfbfbf1053fd43939d86525ef82a334b);
+        
+    
+        var popup_98fce0be43574be39dc54650a62605e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30b3ae41824b419c83f69e424b0fd2ca = $(`<div id="html_30b3ae41824b419c83f69e424b0fd2ca" style="width: 100.0%; height: 100.0%;">UP Academy Charter School of Dorchester</div>`)[0];
+            popup_98fce0be43574be39dc54650a62605e7.setContent(html_30b3ae41824b419c83f69e424b0fd2ca);
+        
+
+        marker_1cf2f6334886417992fa971fbb81778f.bindPopup(popup_98fce0be43574be39dc54650a62605e7)
+        ;
+
+        
+    
+    
+            var marker_7a57e637e3654e76a71516b47e0c3ceb = L.marker(
+                [42.29992614712457, -71.0707294317282],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_25d229f59b3e40d8aa58b0dd3223f46c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7a57e637e3654e76a71516b47e0c3ceb.setIcon(icon_25d229f59b3e40d8aa58b0dd3223f46c);
+        
+    
+        var popup_db6aa69415604fd580a453b509c56451 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08970b8f27e84d9ca9150d0d90f44908 = $(`<div id="html_08970b8f27e84d9ca9150d0d90f44908" style="width: 100.0%; height: 100.0%;">Henderson Lower (K0-1)</div>`)[0];
+            popup_db6aa69415604fd580a453b509c56451.setContent(html_08970b8f27e84d9ca9150d0d90f44908);
+        
+
+        marker_7a57e637e3654e76a71516b47e0c3ceb.bindPopup(popup_db6aa69415604fd580a453b509c56451)
+        ;
+
+        
+    
+    
+            var marker_367a3d7f96f745af854b045f7b8f4544 = L.marker(
+                [42.293966726809174, -71.062220644048],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_a496eb61c7d54b0c857efc2b5d065ee5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_367a3d7f96f745af854b045f7b8f4544.setIcon(icon_a496eb61c7d54b0c857efc2b5d065ee5);
+        
+    
+        var popup_a5b00590717c44669ab0758516eabf91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0e4f4561a73477ba6a8265076941b04 = $(`<div id="html_b0e4f4561a73477ba6a8265076941b04" style="width: 100.0%; height: 100.0%;">Murphy K-8</div>`)[0];
+            popup_a5b00590717c44669ab0758516eabf91.setContent(html_b0e4f4561a73477ba6a8265076941b04);
+        
+
+        marker_367a3d7f96f745af854b045f7b8f4544.bindPopup(popup_a5b00590717c44669ab0758516eabf91)
+        ;
+
+        
+    
+    
+            var marker_25a053849bbf454089c2ea9430be98ef = L.marker(
+                [42.29420617703556, -71.04919405841146],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b39841dad25240a7ae33502e37bb00cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_25a053849bbf454089c2ea9430be98ef.setIcon(icon_b39841dad25240a7ae33502e37bb00cb);
+        
+    
+        var popup_542b5a83791d46f3947ef850daecf251 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a326d82d5a645c297727a7b371ad0a6 = $(`<div id="html_0a326d82d5a645c297727a7b371ad0a6" style="width: 100.0%; height: 100.0%;">Kenny Elementary</div>`)[0];
+            popup_542b5a83791d46f3947ef850daecf251.setContent(html_0a326d82d5a645c297727a7b371ad0a6);
+        
+
+        marker_25a053849bbf454089c2ea9430be98ef.bindPopup(popup_542b5a83791d46f3947ef850daecf251)
+        ;
+
+        
+    
+    
+            var marker_32165ba4411643a6824942347da27430 = L.marker(
+                [42.28655025040779, -71.05319153733501],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ffecf4614af0437a9a09c13d53704360 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_32165ba4411643a6824942347da27430.setIcon(icon_ffecf4614af0437a9a09c13d53704360);
+        
+    
+        var popup_825a4a6e5684495caca89b8045528217 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9e824b3a5d8a47dd9fce6a3937fe2bf2 = $(`<div id="html_9e824b3a5d8a47dd9fce6a3937fe2bf2" style="width: 100.0%; height: 100.0%;">Henderson Upper (2-12)</div>`)[0];
+            popup_825a4a6e5684495caca89b8045528217.setContent(html_9e824b3a5d8a47dd9fce6a3937fe2bf2);
+        
+
+        marker_32165ba4411643a6824942347da27430.bindPopup(popup_825a4a6e5684495caca89b8045528217)
+        ;
+
+        
+    
+    
+            var marker_fe463b24ba274be5bae32515ca69afc8 = L.marker(
+                [42.28126172746034, -71.06956992683907],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_acdc8abfcdba41c28258f831288bb3c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fe463b24ba274be5bae32515ca69afc8.setIcon(icon_acdc8abfcdba41c28258f831288bb3c5);
+        
+    
+        var popup_d6f7bbe86d044584ae47b05f38cfb157 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4943e841466e4897a5da1fca3e661f7e = $(`<div id="html_4943e841466e4897a5da1fca3e661f7e" style="width: 100.0%; height: 100.0%;">Taylor Elementary</div>`)[0];
+            popup_d6f7bbe86d044584ae47b05f38cfb157.setContent(html_4943e841466e4897a5da1fca3e661f7e);
+        
+
+        marker_fe463b24ba274be5bae32515ca69afc8.bindPopup(popup_d6f7bbe86d044584ae47b05f38cfb157)
+        ;
+
+        
+    
+    
+            var marker_ae63c48602c24e2d82b01c5c3be57eb0 = L.marker(
+                [42.277860746256884, -71.07743056603645],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_a4ad8badc72945bb80b6b7c2fd6c4024 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ae63c48602c24e2d82b01c5c3be57eb0.setIcon(icon_a4ad8badc72945bb80b6b7c2fd6c4024);
+        
+    
+        var popup_346814c6417a4b1f8f0fb873c0bf4ae8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33c90effc5cb4d7da511547f97a25561 = $(`<div id="html_33c90effc5cb4d7da511547f97a25561" style="width: 100.0%; height: 100.0%;">Boston International HS</div>`)[0];
+            popup_346814c6417a4b1f8f0fb873c0bf4ae8.setContent(html_33c90effc5cb4d7da511547f97a25561);
+        
+
+        marker_ae63c48602c24e2d82b01c5c3be57eb0.bindPopup(popup_346814c6417a4b1f8f0fb873c0bf4ae8)
+        ;
+
+        
+    
+    
+            var marker_3f9a670937b34910ae8e811086b88c13 = L.marker(
+                [42.28141865759501, -71.08091059414578],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_0d1050d1d7d246c4acf05d29ddb89941 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f9a670937b34910ae8e811086b88c13.setIcon(icon_0d1050d1d7d246c4acf05d29ddb89941);
+        
+    
+        var popup_96d6292fef954d3883153877e03b7411 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13fab4f564b2458bb87e873151f740e6 = $(`<div id="html_13fab4f564b2458bb87e873151f740e6" style="width: 100.0%; height: 100.0%;">Newcomers Academy</div>`)[0];
+            popup_96d6292fef954d3883153877e03b7411.setContent(html_13fab4f564b2458bb87e873151f740e6);
+        
+
+        marker_3f9a670937b34910ae8e811086b88c13.bindPopup(popup_96d6292fef954d3883153877e03b7411)
+        ;
+
+        
+    
+    
+            var marker_20db8d691ac84d0086a6a71b8afa12ad = L.marker(
+                [42.28141865759501, -71.08091059414578],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_26fc1f4043724a8a955a3799b14bf74a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_20db8d691ac84d0086a6a71b8afa12ad.setIcon(icon_26fc1f4043724a8a955a3799b14bf74a);
+        
+    
+        var popup_e8b01fd07bdf48b18a2506b845815415 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a0f34da13f4b4de0a8be5d0731f1c62b = $(`<div id="html_a0f34da13f4b4de0a8be5d0731f1c62b" style="width: 100.0%; height: 100.0%;">Mildred Avenue K-8</div>`)[0];
+            popup_e8b01fd07bdf48b18a2506b845815415.setContent(html_a0f34da13f4b4de0a8be5d0731f1c62b);
+        
+
+        marker_20db8d691ac84d0086a6a71b8afa12ad.bindPopup(popup_e8b01fd07bdf48b18a2506b845815415)
+        ;
+
+        
+    
+    
+            var marker_96f6a29db0f64fd0b4c63111cba7f2e7 = L.marker(
+                [42.27676065695961, -71.09042959600346],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_737700f89b9643c396a6a728d9676c55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brick", "prefix": "glyphicon"}
+            );
+            marker_96f6a29db0f64fd0b4c63111cba7f2e7.setIcon(icon_737700f89b9643c396a6a728d9676c55);
+        
+    
+        var popup_073873ea40424a57b8c361cfa45be2e9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_415a44972b5e4eca9620858b2a217cb9 = $(`<div id="html_415a44972b5e4eca9620858b2a217cb9" style="width: 100.0%; height: 100.0%;">TechBoston Academy</div>`)[0];
+            popup_073873ea40424a57b8c361cfa45be2e9.setContent(html_415a44972b5e4eca9620858b2a217cb9);
+        
+
+        marker_96f6a29db0f64fd0b4c63111cba7f2e7.bindPopup(popup_073873ea40424a57b8c361cfa45be2e9)
+        ;
+
+        
+    
+    
+            var marker_1238eafd38324d1a9178b4ce69a5af87 = L.marker(
+                [42.28779215450015, -71.07679145494095],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_3c60ec5c15764335803bff323f3d0ac5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1238eafd38324d1a9178b4ce69a5af87.setIcon(icon_3c60ec5c15764335803bff323f3d0ac5);
+        
+    
+        var popup_b402855a443140b7a715088efafb2a00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad5932c506dc4b24af84ca402d78b8e9 = $(`<div id="html_ad5932c506dc4b24af84ca402d78b8e9" style="width: 100.0%; height: 100.0%;">Lee K-8</div>`)[0];
+            popup_b402855a443140b7a715088efafb2a00.setContent(html_ad5932c506dc4b24af84ca402d78b8e9);
+        
+
+        marker_1238eafd38324d1a9178b4ce69a5af87.bindPopup(popup_b402855a443140b7a715088efafb2a00)
+        ;
+
+        
+    
+    
+            var marker_ae9f67e21f4d40249dea9c94084ab2e9 = L.marker(
+                [42.29243810494426, -71.08037541924556],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_fc5c0754ef1d4263be8662f99b98e0f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae9f67e21f4d40249dea9c94084ab2e9.setIcon(icon_fc5c0754ef1d4263be8662f99b98e0f7);
+        
+    
+        var popup_64bf25589644478b8f9810079e9d92af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7790b397d07a44ebaf65db366e6babb3 = $(`<div id="html_7790b397d07a44ebaf65db366e6babb3" style="width: 100.0%; height: 100.0%;">Lee Academy (K1-3)</div>`)[0];
+            popup_64bf25589644478b8f9810079e9d92af.setContent(html_7790b397d07a44ebaf65db366e6babb3);
+        
+
+        marker_ae9f67e21f4d40249dea9c94084ab2e9.bindPopup(popup_64bf25589644478b8f9810079e9d92af)
+        ;
+
+        
+    
+    
+            var marker_cde7421b635247b08d41b02b37991cb9 = L.marker(
+                [42.28660892640341, -71.07300862696997],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_534cd1ab917e44188a86139eea8f41ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cde7421b635247b08d41b02b37991cb9.setIcon(icon_534cd1ab917e44188a86139eea8f41ec);
+        
+    
+        var popup_69ce3d7e2c224f37b54c35a9799ab143 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3be1c9840ab42d88b732190bc22dbdc = $(`<div id="html_f3be1c9840ab42d88b732190bc22dbdc" style="width: 100.0%; height: 100.0%;">Holmes Elementary</div>`)[0];
+            popup_69ce3d7e2c224f37b54c35a9799ab143.setContent(html_f3be1c9840ab42d88b732190bc22dbdc);
+        
+
+        marker_cde7421b635247b08d41b02b37991cb9.bindPopup(popup_69ce3d7e2c224f37b54c35a9799ab143)
+        ;
+
+        
+    
+    
+            var marker_d66f7baf768446478b30331027118f2b = L.marker(
+                [42.2967884987679, -71.07560025929865],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b58c54f4739247dd925c1e097f726829 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d66f7baf768446478b30331027118f2b.setIcon(icon_b58c54f4739247dd925c1e097f726829);
+        
+    
+        var popup_1384e985e4e243c98b69881ddab785da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06b0c23c3f894a6dae743118cf7641f5 = $(`<div id="html_06b0c23c3f894a6dae743118cf7641f5" style="width: 100.0%; height: 100.0%;">Young Achievers K-8</div>`)[0];
+            popup_1384e985e4e243c98b69881ddab785da.setContent(html_06b0c23c3f894a6dae743118cf7641f5);
+        
+
+        marker_d66f7baf768446478b30331027118f2b.bindPopup(popup_1384e985e4e243c98b69881ddab785da)
+        ;
+
+        
+    
+    
+            var marker_578010b319b3493586225092f4483939 = L.marker(
+                [42.28231466008857, -71.09500233426513],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_585c2fed691d4aceb88c75961b827932 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_578010b319b3493586225092f4483939.setIcon(icon_585c2fed691d4aceb88c75961b827932);
+        
+    
+        var popup_7a96d9f8b6814607a2967918a5daf4d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c06aa34e71e9460586be68dd69d8da84 = $(`<div id="html_c06aa34e71e9460586be68dd69d8da84" style="width: 100.0%; height: 100.0%;">Mattahunt Elementary</div>`)[0];
+            popup_7a96d9f8b6814607a2967918a5daf4d5.setContent(html_c06aa34e71e9460586be68dd69d8da84);
+        
+
+        marker_578010b319b3493586225092f4483939.bindPopup(popup_7a96d9f8b6814607a2967918a5daf4d5)
+        ;
+
+        
+    
+    
+            var marker_505525b017514a92b4fc64bb5a25f492 = L.marker(
+                [42.27581530982762, -71.10408944316828],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_92cb0af02e224a7c8c95681016419302 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_505525b017514a92b4fc64bb5a25f492.setIcon(icon_92cb0af02e224a7c8c95681016419302);
+        
+    
+        var popup_f686325387fc4c6488faa172f2e1d0f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_498a3bc2a4004aa7ab7a098d8f1655bf = $(`<div id="html_498a3bc2a4004aa7ab7a098d8f1655bf" style="width: 100.0%; height: 100.0%;">Chittick Elementary</div>`)[0];
+            popup_f686325387fc4c6488faa172f2e1d0f9.setContent(html_498a3bc2a4004aa7ab7a098d8f1655bf);
+        
+
+        marker_505525b017514a92b4fc64bb5a25f492.bindPopup(popup_f686325387fc4c6488faa172f2e1d0f9)
+        ;
+
+        
+    
+    
+            var marker_277755b69d3e482e9e1431874c0ee16b = L.marker(
+                [42.26725865440788, -71.10478060042885],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_6bb716c3c1d744dd9d9b0ea935e60aad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_277755b69d3e482e9e1431874c0ee16b.setIcon(icon_6bb716c3c1d744dd9d9b0ea935e60aad);
+        
+    
+        var popup_36138147a74b44f6b83b7f590026c2e7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_49a4ca9043af4a3dbacd1d8f13d6fd21 = $(`<div id="html_49a4ca9043af4a3dbacd1d8f13d6fd21" style="width: 100.0%; height: 100.0%;">Comm Acad Sci Health</div>`)[0];
+            popup_36138147a74b44f6b83b7f590026c2e7.setContent(html_49a4ca9043af4a3dbacd1d8f13d6fd21);
+        
+
+        marker_277755b69d3e482e9e1431874c0ee16b.bindPopup(popup_36138147a74b44f6b83b7f590026c2e7)
+        ;
+
+        
+    
+    
+            var marker_229e8ba5e6da47cfa9c10dc917669d65 = L.marker(
+                [42.301128791038366, -71.061729420578],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_03ddc9f749b64468a0d74af019932a33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_229e8ba5e6da47cfa9c10dc917669d65.setIcon(icon_03ddc9f749b64468a0d74af019932a33);
+        
+    
+        var popup_09816ba520d04381a83ebd2e916fd8f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_860b949e00af4bc9a1e59d8e3f20fa52 = $(`<div id="html_860b949e00af4bc9a1e59d8e3f20fa52" style="width: 100.0%; height: 100.0%;">Philbrick Elementary</div>`)[0];
+            popup_09816ba520d04381a83ebd2e916fd8f8.setContent(html_860b949e00af4bc9a1e59d8e3f20fa52);
+        
+
+        marker_229e8ba5e6da47cfa9c10dc917669d65.bindPopup(popup_09816ba520d04381a83ebd2e916fd8f8)
+        ;
+
+        
+    
+    
+            var marker_ff93ccf296c4463d99e94e056e741031 = L.marker(
+                [42.28540865691044, -71.11774060613877],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_dc00ed2b5b7f4cb9944f35526c9ec82d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ff93ccf296c4463d99e94e056e741031.setIcon(icon_dc00ed2b5b7f4cb9944f35526c9ec82d);
+        
+    
+        var popup_663cda6a42da42d7920e2b0ff82c8aca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3df84479ae2849d9bddc4431b127a0e9 = $(`<div id="html_3df84479ae2849d9bddc4431b127a0e9" style="width: 100.0%; height: 100.0%;">Haley K-8</div>`)[0];
+            popup_663cda6a42da42d7920e2b0ff82c8aca.setContent(html_3df84479ae2849d9bddc4431b127a0e9);
+        
+
+        marker_ff93ccf296c4463d99e94e056e741031.bindPopup(popup_663cda6a42da42d7920e2b0ff82c8aca)
+        ;
+
+        
+    
+    
+            var marker_b1d9981c9995416f939f8a7e4f4f6bab = L.marker(
+                [42.286758657746155, -71.10772060187031],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_365a2755185441108f6f9de702b6e145 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b1d9981c9995416f939f8a7e4f4f6bab.setIcon(icon_365a2755185441108f6f9de702b6e145);
+        
+    
+        var popup_96f4cecd122945068b027956ef6e6257 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0478b86b59954f9d81499e8e29d299f5 = $(`<div id="html_0478b86b59954f9d81499e8e29d299f5" style="width: 100.0%; height: 100.0%;">BTU K-8 Pilot</div>`)[0];
+            popup_96f4cecd122945068b027956ef6e6257.setContent(html_0478b86b59954f9d81499e8e29d299f5);
+        
+
+        marker_b1d9981c9995416f939f8a7e4f4f6bab.bindPopup(popup_96f4cecd122945068b027956ef6e6257)
+        ;
+
+        
+    
+    
+            var marker_83c24eed26804e8aaf50d0a4bd4819bc = L.marker(
+                [42.294638658621004, -71.11594060610987],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_fb9bb0a732ab43d2aa263c174a816337 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_83c24eed26804e8aaf50d0a4bd4819bc.setIcon(icon_fb9bb0a732ab43d2aa263c174a816337);
+        
+    
+        var popup_a4e3f882223a469eab5f94cd42b18d17 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcf0654dc45a43a8b42c9f4f89bf7f08 = $(`<div id="html_fcf0654dc45a43a8b42c9f4f89bf7f08" style="width: 100.0%; height: 100.0%;">Roosevelt Upper (2-8)</div>`)[0];
+            popup_a4e3f882223a469eab5f94cd42b18d17.setContent(html_fcf0654dc45a43a8b42c9f4f89bf7f08);
+        
+
+        marker_83c24eed26804e8aaf50d0a4bd4819bc.bindPopup(popup_a4e3f882223a469eab5f94cd42b18d17)
+        ;
+
+        
+    
+    
+            var marker_27f571cc75374eb4b2e30a09495badfc = L.marker(
+                [42.242950759657155, -71.12345116616873],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ec24c37fce194158a4234d708db820bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27f571cc75374eb4b2e30a09495badfc.setIcon(icon_ec24c37fce194158a4234d708db820bc);
+        
+    
+        var popup_8be1357121174f6c8e4c8a4fe52f5045 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ef1b8be6497f416393f0195571df8e67 = $(`<div id="html_ef1b8be6497f416393f0195571df8e67" style="width: 100.0%; height: 100.0%;">Channing Elementary</div>`)[0];
+            popup_8be1357121174f6c8e4c8a4fe52f5045.setContent(html_ef1b8be6497f416393f0195571df8e67);
+        
+
+        marker_27f571cc75374eb4b2e30a09495badfc.bindPopup(popup_8be1357121174f6c8e4c8a4fe52f5045)
+        ;
+
+        
+    
+    
+            var marker_dac5571762f84379a191bf8767c94f93 = L.marker(
+                [42.25162865099119, -71.1333206089133],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_0c3afd010fd44b838361c936249bbc22 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dac5571762f84379a191bf8767c94f93.setIcon(icon_0c3afd010fd44b838361c936249bbc22);
+        
+    
+        var popup_e07a8059260d40128544ae216eb86ac7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e3fc87bf8f34ec5968b3ec4b7355b37 = $(`<div id="html_2e3fc87bf8f34ec5968b3ec4b7355b37" style="width: 100.0%; height: 100.0%;">Grew Elementary</div>`)[0];
+            popup_e07a8059260d40128544ae216eb86ac7.setContent(html_2e3fc87bf8f34ec5968b3ec4b7355b37);
+        
+
+        marker_dac5571762f84379a191bf8767c94f93.bindPopup(popup_e07a8059260d40128544ae216eb86ac7)
+        ;
+
+        
+    
+    
+            var marker_8f56458a21b14b68b01c7295481331cb = L.marker(
+                [42.25676865106476, -71.12732060707144],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_9cf57897a258436cb2f449361d1d914e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8f56458a21b14b68b01c7295481331cb.setIcon(icon_9cf57897a258436cb2f449361d1d914e);
+        
+    
+        var popup_add624edf6a24873a682b471ce2bfeec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d13ccdfe43cb4d04a5b2357e7da95043 = $(`<div id="html_d13ccdfe43cb4d04a5b2357e7da95043" style="width: 100.0%; height: 100.0%;">Conley Elementary</div>`)[0];
+            popup_add624edf6a24873a682b471ce2bfeec.setContent(html_d13ccdfe43cb4d04a5b2357e7da95043);
+        
+
+        marker_8f56458a21b14b68b01c7295481331cb.bindPopup(popup_add624edf6a24873a682b471ce2bfeec)
+        ;
+
+        
+    
+    
+            var marker_20392d7e70a44c618c971639e2bd675e = L.marker(
+                [42.27479865509247, -71.12705060868437],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_8c415588bf2745a5a0b2cd2a0d4c97ec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_20392d7e70a44c618c971639e2bd675e.setIcon(icon_8c415588bf2745a5a0b2cd2a0d4c97ec);
+        
+    
+        var popup_a957d4b58b91469fbfbb23ef78a5c5cc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b833a842b627406db4df8960aa0753e5 = $(`<div id="html_b833a842b627406db4df8960aa0753e5" style="width: 100.0%; height: 100.0%;">Irving Middle</div>`)[0];
+            popup_a957d4b58b91469fbfbb23ef78a5c5cc.setContent(html_b833a842b627406db4df8960aa0753e5);
+        
+
+        marker_20392d7e70a44c618c971639e2bd675e.bindPopup(popup_a957d4b58b91469fbfbb23ef78a5c5cc)
+        ;
+
+        
+    
+    
+            var marker_6890553781044b0c859c6ff8a4149be6 = L.marker(
+                [42.283638656671, -71.12493060728049],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_132143ceed8a430c9e3495cdbf73c694 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6890553781044b0c859c6ff8a4149be6.setIcon(icon_132143ceed8a430c9e3495cdbf73c694);
+        
+    
+        var popup_5abe817330a54cb0b9c63f9fed68cb79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e905ff99f18e438b8822e7d164b593d6 = $(`<div id="html_e905ff99f18e438b8822e7d164b593d6" style="width: 100.0%; height: 100.0%;">Sumner Elementary</div>`)[0];
+            popup_5abe817330a54cb0b9c63f9fed68cb79.setContent(html_e905ff99f18e438b8822e7d164b593d6);
+        
+
+        marker_6890553781044b0c859c6ff8a4149be6.bindPopup(popup_5abe817330a54cb0b9c63f9fed68cb79)
+        ;
+
+        
+    
+    
+            var marker_cdc2b41bd8d8427392f0590096f5e1f1 = L.marker(
+                [42.286458657545964, -71.12684060809595],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_1076b583a33c40ddaaf94c06446ec8a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cdc2b41bd8d8427392f0590096f5e1f1.setIcon(icon_1076b583a33c40ddaaf94c06446ec8a4);
+        
+    
+        var popup_33dd164640ee43759fd032f0bfd1f5cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9335c812a2584d1986e91657580f7340 = $(`<div id="html_9335c812a2584d1986e91657580f7340" style="width: 100.0%; height: 100.0%;">Community Academy</div>`)[0];
+            popup_33dd164640ee43759fd032f0bfd1f5cf.setContent(html_9335c812a2584d1986e91657580f7340);
+        
+
+        marker_cdc2b41bd8d8427392f0590096f5e1f1.bindPopup(popup_33dd164640ee43759fd032f0bfd1f5cf)
+        ;
+
+        
+    
+    
+            var marker_36caf7880bd74385a415dd64c25831f2 = L.marker(
+                [42.30892866266553, -71.10349060174734],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_f0a601cbc9ec4a279b1520e685434d83 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_36caf7880bd74385a415dd64c25831f2.setIcon(icon_f0a601cbc9ec4a279b1520e685434d83);
+        
+    
+        var popup_c09f02ee384d4d88be4af796a37db2de = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c60c327392e4d9e91333846804af65b = $(`<div id="html_5c60c327392e4d9e91333846804af65b" style="width: 100.0%; height: 100.0%;">Hernandez K-8</div>`)[0];
+            popup_c09f02ee384d4d88be4af796a37db2de.setContent(html_5c60c327392e4d9e91333846804af65b);
+        
+
+        marker_36caf7880bd74385a415dd64c25831f2.bindPopup(popup_c09f02ee384d4d88be4af796a37db2de)
+        ;
+
+        
+    
+    
+            var marker_b9e8d129ae494ddfab82287ea901bad6 = L.marker(
+                [42.313937883276786, -71.09812020643957],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_65f17a2dfdec49f4a636c60fac7ef67c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b9e8d129ae494ddfab82287ea901bad6.setIcon(icon_65f17a2dfdec49f4a636c60fac7ef67c);
+        
+    
+        var popup_e17c680aad2b43eca41c15151efbdcc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c4bde2d54b8d4950814ff2d51f6a9e5e = $(`<div id="html_c4bde2d54b8d4950814ff2d51f6a9e5e" style="width: 100.0%; height: 100.0%;">English High</div>`)[0];
+            popup_e17c680aad2b43eca41c15151efbdcc4.setContent(html_c4bde2d54b8d4950814ff2d51f6a9e5e);
+        
+
+        marker_b9e8d129ae494ddfab82287ea901bad6.bindPopup(popup_e17c680aad2b43eca41c15151efbdcc4)
+        ;
+
+        
+    
+    
+            var marker_1c81fb420cfa499ba509ead2c1c517e0 = L.marker(
+                [42.30600866079933, -71.10960060443752],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_c192b2862a4d46c5abbdb24007cdb9f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c81fb420cfa499ba509ead2c1c517e0.setIcon(icon_c192b2862a4d46c5abbdb24007cdb9f8);
+        
+    
+        var popup_7a953d72ab374d4fbf70767ae5edc435 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e069d873372642dc8137adf2ae5dddf7 = $(`<div id="html_e069d873372642dc8137adf2ae5dddf7" style="width: 100.0%; height: 100.0%;">Mendell Elementary</div>`)[0];
+            popup_7a953d72ab374d4fbf70767ae5edc435.setContent(html_e069d873372642dc8137adf2ae5dddf7);
+        
+
+        marker_1c81fb420cfa499ba509ead2c1c517e0.bindPopup(popup_7a953d72ab374d4fbf70767ae5edc435)
+        ;
+
+        
+    
+    
+            var marker_227d054ef0ce4b9b8eb1725d571eae7f = L.marker(
+                [42.3165586643393, -71.10161060258062],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_71069852bff04ba7b72bf9a6abe6870e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_227d054ef0ce4b9b8eb1725d571eae7f.setIcon(icon_71069852bff04ba7b72bf9a6abe6870e);
+        
+    
+        var popup_c132e7c09e6643f7823c87869dfbdee3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63eea0926d4649e0a77444260157b550 = $(`<div id="html_63eea0926d4649e0a77444260157b550" style="width: 100.0%; height: 100.0%;">Kennedy John F Elemen</div>`)[0];
+            popup_c132e7c09e6643f7823c87869dfbdee3.setContent(html_63eea0926d4649e0a77444260157b550);
+        
+
+        marker_227d054ef0ce4b9b8eb1725d571eae7f.bindPopup(popup_c132e7c09e6643f7823c87869dfbdee3)
+        ;
+
+        
+    
+    
+            var marker_ece359ad7bbe4779aa0be3f1d003a543 = L.marker(
+                [42.321785327085706, -71.10583938257344],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_87b2c4f884ef4c4c9a53197398b012ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ece359ad7bbe4779aa0be3f1d003a543.setIcon(icon_87b2c4f884ef4c4c9a53197398b012ea);
+        
+    
+        var popup_fcdc87a91c234314ae8013cfb1935b81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f166a789041940e6a61d5a6009844050 = $(`<div id="html_f166a789041940e6a61d5a6009844050" style="width: 100.0%; height: 100.0%;">West Zone ELC</div>`)[0];
+            popup_fcdc87a91c234314ae8013cfb1935b81.setContent(html_f166a789041940e6a61d5a6009844050);
+        
+
+        marker_ece359ad7bbe4779aa0be3f1d003a543.bindPopup(popup_fcdc87a91c234314ae8013cfb1935b81)
+        ;
+
+        
+    
+    
+            var marker_688b606250384e3d83f5e012a6e6035e = L.marker(
+                [42.32629275723332, -71.10693577080225],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b50bb3effc454a98bc20b55284d5f254 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_688b606250384e3d83f5e012a6e6035e.setIcon(icon_b50bb3effc454a98bc20b55284d5f254);
+        
+    
+        var popup_ac54ef0a5c37472dafc64781308c1312 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e96961d785a4510ae399600940e495a = $(`<div id="html_0e96961d785a4510ae399600940e495a" style="width: 100.0%; height: 100.0%;">Tobin K-8</div>`)[0];
+            popup_ac54ef0a5c37472dafc64781308c1312.setContent(html_0e96961d785a4510ae399600940e495a);
+        
+
+        marker_688b606250384e3d83f5e012a6e6035e.bindPopup(popup_ac54ef0a5c37472dafc64781308c1312)
+        ;
+
+        
+    
+    
+            var marker_b965c592857241c2a7432c42105cd352 = L.marker(
+                [42.333018667196676, -71.09829060280721],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_6bcfc7de43154ff1b717728a77b00d36 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brick", "prefix": "glyphicon"}
+            );
+            marker_b965c592857241c2a7432c42105cd352.setIcon(icon_6bcfc7de43154ff1b717728a77b00d36);
+        
+    
+        var popup_6e02e085a8a5455982d20849531502cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c7db8d2ff5841c391d692e0e4e5adb6 = $(`<div id="html_2c7db8d2ff5841c391d692e0e4e5adb6" style="width: 100.0%; height: 100.0%;">Boston Latin School</div>`)[0];
+            popup_6e02e085a8a5455982d20849531502cf.setContent(html_2c7db8d2ff5841c391d692e0e4e5adb6);
+        
+
+        marker_b965c592857241c2a7432c42105cd352.bindPopup(popup_6e02e085a8a5455982d20849531502cf)
+        ;
+
+        
+    
+    
+            var marker_6160c32b1231496f9120baa59380df87 = L.marker(
+                [42.337898667877994, -71.10169060333597],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_cf54bf99679b4fd6a45316ad66138322 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_6160c32b1231496f9120baa59380df87.setIcon(icon_cf54bf99679b4fd6a45316ad66138322);
+        
+    
+        var popup_6e4cf8888a20461e8c2623106fd2d1aa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1151fca5e2e443b91c13c195508abe1 = $(`<div id="html_b1151fca5e2e443b91c13c195508abe1" style="width: 100.0%; height: 100.0%;">Kennedy Health Careers Academy (11-12)</div>`)[0];
+            popup_6e4cf8888a20461e8c2623106fd2d1aa.setContent(html_b1151fca5e2e443b91c13c195508abe1);
+        
+
+        marker_6160c32b1231496f9120baa59380df87.bindPopup(popup_6e4cf8888a20461e8c2623106fd2d1aa)
+        ;
+
+        
+    
+    
+            var marker_959c8b759ab3444f8d6b7175458f6695 = L.marker(
+                [42.34145866825515, -71.09153060016712],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_fa7d8481ad644c4b8e2b100f82698ce2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_959c8b759ab3444f8d6b7175458f6695.setIcon(icon_fa7d8481ad644c4b8e2b100f82698ce2);
+        
+    
+        var popup_4f64f19ab0b848d7b207e7763526564d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f7c83f60f17465bb501d42282920bc2 = $(`<div id="html_1f7c83f60f17465bb501d42282920bc2" style="width: 100.0%; height: 100.0%;">Fenway High</div>`)[0];
+            popup_4f64f19ab0b848d7b207e7763526564d.setContent(html_1f7c83f60f17465bb501d42282920bc2);
+        
+
+        marker_959c8b759ab3444f8d6b7175458f6695.bindPopup(popup_4f64f19ab0b848d7b207e7763526564d)
+        ;
+
+        
+    
+    
+            var marker_aa6be27500294f9f91f13f19bcff91c5 = L.marker(
+                [42.330588277439375, -71.09917802116335],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_dbf14ee3bd34401894eb1e6ef0805379 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_aa6be27500294f9f91f13f19bcff91c5.setIcon(icon_dbf14ee3bd34401894eb1e6ef0805379);
+        
+    
+        var popup_41710d54818f44cd8d6ec3ee39b56ca3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cbd2d770a9d49a38668c4cb2a324e10 = $(`<div id="html_4cbd2d770a9d49a38668c4cb2a324e10" style="width: 100.0%; height: 100.0%;">Boston Arts Academy</div>`)[0];
+            popup_41710d54818f44cd8d6ec3ee39b56ca3.setContent(html_4cbd2d770a9d49a38668c4cb2a324e10);
+        
+
+        marker_aa6be27500294f9f91f13f19bcff91c5.bindPopup(popup_41710d54818f44cd8d6ec3ee39b56ca3)
+        ;
+
+        
+    
+    
+            var marker_c03c91f5f9e84687aeb118421a232db4 = L.marker(
+                [42.300698325177976, -71.06215256288617],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_9fbf4a223ee448ebabf2a9d11f78594c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c03c91f5f9e84687aeb118421a232db4.setIcon(icon_9fbf4a223ee448ebabf2a9d11f78594c);
+        
+    
+        var popup_dee70708d8e142fd8b6ad3fe258f038b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_be811bd59ab84281bce541e6894d7515 = $(`<div id="html_be811bd59ab84281bce541e6894d7515" style="width: 100.0%; height: 100.0%;">McKinley Prep High Sch</div>`)[0];
+            popup_dee70708d8e142fd8b6ad3fe258f038b.setContent(html_be811bd59ab84281bce541e6894d7515);
+        
+
+        marker_c03c91f5f9e84687aeb118421a232db4.bindPopup(popup_dee70708d8e142fd8b6ad3fe258f038b)
+        ;
+
+        
+    
+    
+            var marker_d171d8b65b9b429bbaf83d474b11cb41 = L.marker(
+                [42.34343866935011, -71.09926060332542],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_16ec46a12ecd44358f154912bde19dc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d171d8b65b9b429bbaf83d474b11cb41.setIcon(icon_16ec46a12ecd44358f154912bde19dc1);
+        
+    
+        var popup_ada130755dfa4883aeac3ba1b2906679 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3860c2f03754b828a9be7ea47fb7012 = $(`<div id="html_a3860c2f03754b828a9be7ea47fb7012" style="width: 100.0%; height: 100.0%;">McKinley Middle</div>`)[0];
+            popup_ada130755dfa4883aeac3ba1b2906679.setContent(html_a3860c2f03754b828a9be7ea47fb7012);
+        
+
+        marker_d171d8b65b9b429bbaf83d474b11cb41.bindPopup(popup_ada130755dfa4883aeac3ba1b2906679)
+        ;
+
+        
+    
+    
+            var marker_5bab5233a7a844d799b1257f1e2a7565 = L.marker(
+                [42.34794866944594, -71.10676060602721],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_26b5f1ae5fd44675af536fe097e35600 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5bab5233a7a844d799b1257f1e2a7565.setIcon(icon_26b5f1ae5fd44675af536fe097e35600);
+        
+    
+        var popup_fb9d6fc4bc9645c88e4f34195f20f64d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_81b1303298044cf985af6fbea020ce48 = $(`<div id="html_81b1303298044cf985af6fbea020ce48" style="width: 100.0%; height: 100.0%;">Curley K-8 (Lower)</div>`)[0];
+            popup_fb9d6fc4bc9645c88e4f34195f20f64d.setContent(html_81b1303298044cf985af6fbea020ce48);
+        
+
+        marker_5bab5233a7a844d799b1257f1e2a7565.bindPopup(popup_fb9d6fc4bc9645c88e4f34195f20f64d)
+        ;
+
+        
+    
+    
+            var marker_be988a58543c4ac48963104c6d487784 = L.marker(
+                [42.318685476809186, -71.11421891302389],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_8198a67b5b09426bbead88dac5dba612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_be988a58543c4ac48963104c6d487784.setIcon(icon_8198a67b5b09426bbead88dac5dba612);
+        
+    
+        var popup_86488c870324494fa5515f5515f4efb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_570779f7c56b44bd81281709ac1949c5 = $(`<div id="html_570779f7c56b44bd81281709ac1949c5" style="width: 100.0%; height: 100.0%;">Curley K-8 (Upper)</div>`)[0];
+            popup_86488c870324494fa5515f5515f4efb2.setContent(html_570779f7c56b44bd81281709ac1949c5);
+        
+
+        marker_be988a58543c4ac48963104c6d487784.bindPopup(popup_86488c870324494fa5515f5515f4efb2)
+        ;
+
+        
+    
+    
+            var marker_7859c394c79b4c44ae8a7b12e0d9e912 = L.marker(
+                [42.318508663764156, -71.11295060607237],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_fc804c92982b4a5681ebeafde566f713 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7859c394c79b4c44ae8a7b12e0d9e912.setIcon(icon_fc804c92982b4a5681ebeafde566f713);
+        
+    
+        var popup_a593a64216af4e6db2e87f2caf9be4d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2af164202d0b4eea9c8bdd0a5c33da0c = $(`<div id="html_2af164202d0b4eea9c8bdd0a5c33da0c" style="width: 100.0%; height: 100.0%;">Manning Elementary</div>`)[0];
+            popup_a593a64216af4e6db2e87f2caf9be4d1.setContent(html_2af164202d0b4eea9c8bdd0a5c33da0c);
+        
+
+        marker_7859c394c79b4c44ae8a7b12e0d9e912.bindPopup(popup_a593a64216af4e6db2e87f2caf9be4d1)
+        ;
+
+        
+    
+    
+            var marker_2c7b1c6b2fb14457bbcfbaa7a0b90ad1 = L.marker(
+                [42.305588660406904, -71.13149061100748],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_da889e787dcd4116a5dd14bebda96fb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c7b1c6b2fb14457bbcfbaa7a0b90ad1.setIcon(icon_da889e787dcd4116a5dd14bebda96fb1);
+        
+    
+        var popup_5ce9151c332d482b946b04b3819d8e42 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9652ec1c6e1f433d82cbc6122f9e4845 = $(`<div id="html_9652ec1c6e1f433d82cbc6122f9e4845" style="width: 100.0%; height: 100.0%;">Bates Elementary</div>`)[0];
+            popup_5ce9151c332d482b946b04b3819d8e42.setContent(html_9652ec1c6e1f433d82cbc6122f9e4845);
+        
+
+        marker_2c7b1c6b2fb14457bbcfbaa7a0b90ad1.bindPopup(popup_5ce9151c332d482b946b04b3819d8e42)
+        ;
+
+        
+    
+    
+            var marker_38378fbf1c32484b8cba4b55e6bd570a = L.marker(
+                [42.27776865561274, -71.13533061097898],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_a6fcedefb9ba49f494612bf4ea5a55ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_38378fbf1c32484b8cba4b55e6bd570a.setIcon(icon_a6fcedefb9ba49f494612bf4ea5a55ea);
+        
+    
+        var popup_708d345a1d17404c8ebe7e1b261f5d30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_04606c5a954644669e0c3e433ffc8a70 = $(`<div id="html_04606c5a954644669e0c3e433ffc8a70" style="width: 100.0%; height: 100.0%;">Mozart Elementary</div>`)[0];
+            popup_708d345a1d17404c8ebe7e1b261f5d30.setContent(html_04606c5a954644669e0c3e433ffc8a70);
+        
+
+        marker_38378fbf1c32484b8cba4b55e6bd570a.bindPopup(popup_708d345a1d17404c8ebe7e1b261f5d30)
+        ;
+
+        
+    
+    
+            var marker_56bf904c03e24c55a4e8f8f73c7605d1 = L.marker(
+                [42.28122865606998, -71.14105061295112],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_17929395439547d5bfd371b91e6d0d20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_56bf904c03e24c55a4e8f8f73c7605d1.setIcon(icon_17929395439547d5bfd371b91e6d0d20);
+        
+    
+        var popup_bbf3fa33b1774048bb24c9a4f0cad585 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92b900ca40db42f38bc9123dc35e2060 = $(`<div id="html_92b900ca40db42f38bc9123dc35e2060" style="width: 100.0%; height: 100.0%;">Kilmer Upper (4-8)</div>`)[0];
+            popup_bbf3fa33b1774048bb24c9a4f0cad585.setContent(html_92b900ca40db42f38bc9123dc35e2060);
+        
+
+        marker_56bf904c03e24c55a4e8f8f73c7605d1.bindPopup(popup_bbf3fa33b1774048bb24c9a4f0cad585)
+        ;
+
+        
+    
+    
+            var marker_f12e556580c5445c93bce55dd7533c21 = L.marker(
+                [42.29266065792342, -71.15236761800148],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_0a54653574e943a8a665168273b51676 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f12e556580c5445c93bce55dd7533c21.setIcon(icon_0a54653574e943a8a665168273b51676);
+        
+    
+        var popup_6c7ec8a57b2f4eaba5ce1ff13911b63f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60296fc9bbb4df9a6c716179d177207 = $(`<div id="html_b60296fc9bbb4df9a6c716179d177207" style="width: 100.0%; height: 100.0%;">Beethoven Elementary</div>`)[0];
+            popup_6c7ec8a57b2f4eaba5ce1ff13911b63f.setContent(html_b60296fc9bbb4df9a6c716179d177207);
+        
+
+        marker_f12e556580c5445c93bce55dd7533c21.bindPopup(popup_6c7ec8a57b2f4eaba5ce1ff13911b63f)
+        ;
+
+        
+    
+    
+            var marker_17077d443ee3411c943e2e1efbc8e96d = L.marker(
+                [42.26343865134909, -71.15613061658374],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_57d87897014b43d9832882756bdfac4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_17077d443ee3411c943e2e1efbc8e96d.setIcon(icon_57d87897014b43d9832882756bdfac4c);
+        
+    
+        var popup_d2b58c660bb343739674554adb184b84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6cc4f45d84d4e2bb5ea02c901006254 = $(`<div id="html_c6cc4f45d84d4e2bb5ea02c901006254" style="width: 100.0%; height: 100.0%;">Kilmer Lower (K1-3)</div>`)[0];
+            popup_d2b58c660bb343739674554adb184b84.setContent(html_c6cc4f45d84d4e2bb5ea02c901006254);
+        
+
+        marker_17077d443ee3411c943e2e1efbc8e96d.bindPopup(popup_d2b58c660bb343739674554adb184b84)
+        ;
+
+        
+    
+    
+            var marker_031ca1a0034346d8bd49fd2c82124857 = L.marker(
+                [42.27188581980128, -71.16257012574074],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_04c123a0fe20430bacbf66458ef9f476 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_031ca1a0034346d8bd49fd2c82124857.setIcon(icon_04c123a0fe20430bacbf66458ef9f476);
+        
+    
+        var popup_0dcf7c11812043dbbc8dfe2ba3f719f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_894bd779533146848a97f8da896235c0 = $(`<div id="html_894bd779533146848a97f8da896235c0" style="width: 100.0%; height: 100.0%;">Urban Science Academy</div>`)[0];
+            popup_0dcf7c11812043dbbc8dfe2ba3f719f7.setContent(html_894bd779533146848a97f8da896235c0);
+        
+
+        marker_031ca1a0034346d8bd49fd2c82124857.bindPopup(popup_0dcf7c11812043dbbc8dfe2ba3f719f7)
+        ;
+
+        
+    
+    
+            var marker_12ea41f6a28a491dacbca01ca2db6d86 = L.marker(
+                [42.282268654205886, -71.17434062400517],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ca62a29edbb84d14aabaaaf64dc982e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_12ea41f6a28a491dacbca01ca2db6d86.setIcon(icon_ca62a29edbb84d14aabaaaf64dc982e4);
+        
+    
+        var popup_41ec8ecd61f94e4b897b44c5fbd4186e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30b55af8d0d24b45a0b940478251985c = $(`<div id="html_30b55af8d0d24b45a0b940478251985c" style="width: 100.0%; height: 100.0%;">Lyndon K-8</div>`)[0];
+            popup_41ec8ecd61f94e4b897b44c5fbd4186e.setContent(html_30b55af8d0d24b45a0b940478251985c);
+        
+
+        marker_12ea41f6a28a491dacbca01ca2db6d86.bindPopup(popup_41ec8ecd61f94e4b897b44c5fbd4186e)
+        ;
+
+        
+    
+    
+            var marker_8878f897f3e14898913f6dbe136b668b = L.marker(
+                [42.28299865578428, -71.15837061860869],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_c2928374cfae4d449718bac11e2ee137 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8878f897f3e14898913f6dbe136b668b.setIcon(icon_c2928374cfae4d449718bac11e2ee137);
+        
+    
+        var popup_9beb2b3423a648f2ab30e5362b93428f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45a777fa42b94838a997c1a438a9f7cf = $(`<div id="html_45a777fa42b94838a997c1a438a9f7cf" style="width: 100.0%; height: 100.0%;">Edison K-8</div>`)[0];
+            popup_9beb2b3423a648f2ab30e5362b93428f.setContent(html_45a777fa42b94838a997c1a438a9f7cf);
+        
+
+        marker_8878f897f3e14898913f6dbe136b668b.bindPopup(popup_9beb2b3423a648f2ab30e5362b93428f)
+        ;
+
+        
+    
+    
+            var marker_8fc7672c2fc74aeabd60754b1c9d9cc9 = L.marker(
+                [42.34558866728313, -71.16019062267952],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_fea82eaeafa54444b5a0adc610aeddff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8fc7672c2fc74aeabd60754b1c9d9cc9.setIcon(icon_fea82eaeafa54444b5a0adc610aeddff);
+        
+    
+        var popup_3a1fb09a21b84915badbc9faa104609a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_332cda7b049945b19801459190d1cd5e = $(`<div id="html_332cda7b049945b19801459190d1cd5e" style="width: 100.0%; height: 100.0%;">Lyon K-8</div>`)[0];
+            popup_3a1fb09a21b84915badbc9faa104609a.setContent(html_332cda7b049945b19801459190d1cd5e);
+        
+
+        marker_8fc7672c2fc74aeabd60754b1c9d9cc9.bindPopup(popup_3a1fb09a21b84915badbc9faa104609a)
+        ;
+
+        
+    
+    
+            var marker_9c35a2530f71481dad1c0e8f00c6bd28 = L.marker(
+                [42.35107866840413, -71.16150062364638],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_3212367876f24e5f95e2b033ee8a606d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9c35a2530f71481dad1c0e8f00c6bd28.setIcon(icon_3212367876f24e5f95e2b033ee8a606d);
+        
+    
+        var popup_4b6c4b8024b64baaa6d4aa4d5dfd405e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a1a590b0b2874c1585eeeaa1a72a125d = $(`<div id="html_a1a590b0b2874c1585eeeaa1a72a125d" style="width: 100.0%; height: 100.0%;">Lyon, Mary 9-12</div>`)[0];
+            popup_4b6c4b8024b64baaa6d4aa4d5dfd405e.setContent(html_a1a590b0b2874c1585eeeaa1a72a125d);
+        
+
+        marker_9c35a2530f71481dad1c0e8f00c6bd28.bindPopup(popup_4b6c4b8024b64baaa6d4aa4d5dfd405e)
+        ;
+
+        
+    
+    
+            var marker_5c1a307084e5465280ddb01a616e1f91 = L.marker(
+                [42.35212866780904, -71.16076062369531],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_e71b5c27614f4728b9f51a6e0db5aba7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c1a307084e5465280ddb01a616e1f91.setIcon(icon_e71b5c27614f4728b9f51a6e0db5aba7);
+        
+    
+        var popup_53dc84193b42413f8b7ee15412ef0aeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b00224c494014306b0b69fd883b87c96 = $(`<div id="html_b00224c494014306b0b69fd883b87c96" style="width: 100.0%; height: 100.0%;">Winship Elementary</div>`)[0];
+            popup_53dc84193b42413f8b7ee15412ef0aeb.setContent(html_b00224c494014306b0b69fd883b87c96);
+        
+
+        marker_5c1a307084e5465280ddb01a616e1f91.bindPopup(popup_53dc84193b42413f8b7ee15412ef0aeb)
+        ;
+
+        
+    
+    
+            var marker_ec8cd4f73d5a400bb754ef57344b72f1 = L.marker(
+                [42.34760170348808, -71.15534859976619],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_9ca5e7229fa5469e9fa7a3d91f7a4028 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ec8cd4f73d5a400bb754ef57344b72f1.setIcon(icon_9ca5e7229fa5469e9fa7a3d91f7a4028);
+        
+    
+        var popup_7733046e5d80436e92bedc7052e60246 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_852758ef6b6a435e941803b4903b5abc = $(`<div id="html_852758ef6b6a435e941803b4903b5abc" style="width: 100.0%; height: 100.0%;">Another Course to College</div>`)[0];
+            popup_7733046e5d80436e92bedc7052e60246.setContent(html_852758ef6b6a435e941803b4903b5abc);
+        
+
+        marker_ec8cd4f73d5a400bb754ef57344b72f1.bindPopup(popup_7733046e5d80436e92bedc7052e60246)
+        ;
+
+        
+    
+    
+            var marker_b36e223dc7c04bd9a84f86d6c2ece405 = L.marker(
+                [42.265261192397546, -71.11792785432263],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_89016f25fd49445d841ceecc430fe335 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_b36e223dc7c04bd9a84f86d6c2ece405.setIcon(icon_89016f25fd49445d841ceecc430fe335);
+        
+    
+        var popup_c654c16dc11140a3be92e1e42f14f6fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eef4bfbdc0f24640aee4a97519169075 = $(`<div id="html_eef4bfbdc0f24640aee4a97519169075" style="width: 100.0%; height: 100.0%;">Brighton High</div>`)[0];
+            popup_c654c16dc11140a3be92e1e42f14f6fc.setContent(html_eef4bfbdc0f24640aee4a97519169075);
+        
+
+        marker_b36e223dc7c04bd9a84f86d6c2ece405.bindPopup(popup_c654c16dc11140a3be92e1e42f14f6fc)
+        ;
+
+        
+    
+    
+            var marker_3e8c731b3cf74b42be10b6c6820ba4ac = L.marker(
+                [42.34908866829426, -71.14549061780922],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_9021353efb294a08ade3e754110fcd06 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_3e8c731b3cf74b42be10b6c6820ba4ac.setIcon(icon_9021353efb294a08ade3e754110fcd06);
+        
+    
+        var popup_91f47cb2380840099e1b62931406bcc5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bf68ef5b4b884bc181590e4a155c8fef = $(`<div id="html_bf68ef5b4b884bc181590e4a155c8fef" style="width: 100.0%; height: 100.0%;">Baldwin ELPA</div>`)[0];
+            popup_91f47cb2380840099e1b62931406bcc5.setContent(html_bf68ef5b4b884bc181590e4a155c8fef);
+        
+
+        marker_3e8c731b3cf74b42be10b6c6820ba4ac.bindPopup(popup_91f47cb2380840099e1b62931406bcc5)
+        ;
+
+        
+    
+    
+            var marker_e7f7d968287447cc98da8d766a64be35 = L.marker(
+                [42.3420386680756, -71.14051061722546],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_f15c646e6f01463e9b1333433ec02ec3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e7f7d968287447cc98da8d766a64be35.setIcon(icon_f15c646e6f01463e9b1333433ec02ec3);
+        
+    
+        var popup_c435f9c0c78b42a5a8a2be94a4fa4d64 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22d7ba805a2742c587272f4d05d8e857 = $(`<div id="html_22d7ba805a2742c587272f4d05d8e857" style="width: 100.0%; height: 100.0%;">Horace Mann</div>`)[0];
+            popup_c435f9c0c78b42a5a8a2be94a4fa4d64.setContent(html_22d7ba805a2742c587272f4d05d8e857);
+        
+
+        marker_e7f7d968287447cc98da8d766a64be35.bindPopup(popup_c435f9c0c78b42a5a8a2be94a4fa4d64)
+        ;
+
+        
+    
+    
+            var marker_4dc6311af72d4a3b80c9b02ce561760b = L.marker(
+                [42.352058669048986, -71.13770061590884],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_27109d7ce3c244d9890b93296083cb1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4dc6311af72d4a3b80c9b02ce561760b.setIcon(icon_27109d7ce3c244d9890b93296083cb1e);
+        
+    
+        var popup_b981882a9cb1499bacfbc47f9ba329ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ec44b36d86844f7a16344bf27156d4c = $(`<div id="html_7ec44b36d86844f7a16344bf27156d4c" style="width: 100.0%; height: 100.0%;">Jackson/Mann K-8</div>`)[0];
+            popup_b981882a9cb1499bacfbc47f9ba329ac.setContent(html_7ec44b36d86844f7a16344bf27156d4c);
+        
+
+        marker_4dc6311af72d4a3b80c9b02ce561760b.bindPopup(popup_b981882a9cb1499bacfbc47f9ba329ac)
+        ;
+
+        
+    
+    
+            var marker_123100afe78a45fd9a2439b4a08ca163 = L.marker(
+                [42.352058669048986, -71.13770061590884],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_e80fb3becb50453a966c3d8975a4e953 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brick", "prefix": "glyphicon"}
+            );
+            marker_123100afe78a45fd9a2439b4a08ca163.setIcon(icon_e80fb3becb50453a966c3d8975a4e953);
+        
+    
+        var popup_a53c6afd35a2475f816fc1de26af1404 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9de05a2608844f1bb895019402578777 = $(`<div id="html_9de05a2608844f1bb895019402578777" style="width: 100.0%; height: 100.0%;">New Mission High</div>`)[0];
+            popup_a53c6afd35a2475f816fc1de26af1404.setContent(html_9de05a2608844f1bb895019402578777);
+        
+
+        marker_123100afe78a45fd9a2439b4a08ca163.bindPopup(popup_a53c6afd35a2475f816fc1de26af1404)
+        ;
+
+        
+    
+    
+            var marker_7a11d16dca794b7292b9e70148fce621 = L.marker(
+                [42.2624191009593, -71.11791035067431],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_350b2a61246e4266aff9c8b4a7f4246c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a11d16dca794b7292b9e70148fce621.setIcon(icon_350b2a61246e4266aff9c8b4a7f4246c);
+        
+    
+        var popup_157aa279f1774a99973e3fa1746cb2d3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bf00bef02b04a5f910fdc3b4921c244 = $(`<div id="html_5bf00bef02b04a5f910fdc3b4921c244" style="width: 100.0%; height: 100.0%;">Gardner K-8</div>`)[0];
+            popup_157aa279f1774a99973e3fa1746cb2d3.setContent(html_5bf00bef02b04a5f910fdc3b4921c244);
+        
+
+        marker_7a11d16dca794b7292b9e70148fce621.bindPopup(popup_157aa279f1774a99973e3fa1746cb2d3)
+        ;
+
+        
+    
+    
+            var marker_5cfb74df17e64056babb597f6ec72b2b = L.marker(
+                [42.360768671267365, -71.13411061616895],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_34cc6daf259d4f4aa34272b90978455d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5cfb74df17e64056babb597f6ec72b2b.setIcon(icon_34cc6daf259d4f4aa34272b90978455d);
+        
+    
+        var popup_ab121b0e74d1495b88bf680536ed9fd8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9b78e54b0b6342b9ad91a251460a0b1b = $(`<div id="html_9b78e54b0b6342b9ad91a251460a0b1b" style="width: 100.0%; height: 100.0%;">Ohrenberger 3-8</div>`)[0];
+            popup_ab121b0e74d1495b88bf680536ed9fd8.setContent(html_9b78e54b0b6342b9ad91a251460a0b1b);
+        
+
+        marker_5cfb74df17e64056babb597f6ec72b2b.bindPopup(popup_ab121b0e74d1495b88bf680536ed9fd8)
+        ;
+
+        
+    
+    
+            var marker_5750578552bc41829fb0a9bf26f5b0db = L.marker(
+                [42.26075865213715, -71.1496106142466],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b1a7adec2c834e13b8ef0ed8082cb77c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5750578552bc41829fb0a9bf26f5b0db.setIcon(icon_b1a7adec2c834e13b8ef0ed8082cb77c);
+        
+    
+        var popup_5d8cc37bb12c474d991c378b71da0d6c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_333249b0248c436b92f2ff1f336a96ab = $(`<div id="html_333249b0248c436b92f2ff1f336a96ab" style="width: 100.0%; height: 100.0%;">Everett Elementary</div>`)[0];
+            popup_5d8cc37bb12c474d991c378b71da0d6c.setContent(html_333249b0248c436b92f2ff1f336a96ab);
+        
+
+        marker_5750578552bc41829fb0a9bf26f5b0db.bindPopup(popup_5d8cc37bb12c474d991c378b71da0d6c)
+        ;
+
+        
+    
+    
+            var marker_b510e8525ec84d8a951cb9a806f2a17f = L.marker(
+                [42.31368761178382, -71.05976976012546],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_354dba8917e440eb80a2878adfd2c9d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b510e8525ec84d8a951cb9a806f2a17f.setIcon(icon_354dba8917e440eb80a2878adfd2c9d8);
+        
+    
+        var popup_d7374ecfdc7c4dae9882ca4d0bed6c59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_401566efffae499481975ef6d0403d94 = $(`<div id="html_401566efffae499481975ef6d0403d94" style="width: 100.0%; height: 100.0%;">P.A. Shaw (K1-3)</div>`)[0];
+            popup_d7374ecfdc7c4dae9882ca4d0bed6c59.setContent(html_401566efffae499481975ef6d0403d94);
+        
+
+        marker_b510e8525ec84d8a951cb9a806f2a17f.bindPopup(popup_d7374ecfdc7c4dae9882ca4d0bed6c59)
+        ;
+
+        
+    
+    
+            var marker_e94dee0db35b4f00abe0dc330682683b = L.marker(
+                [42.28212094476628, -71.08684032492765],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_d820897010b94ac7a94ef5080f8d3b7a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e94dee0db35b4f00abe0dc330682683b.setIcon(icon_d820897010b94ac7a94ef5080f8d3b7a);
+        
+    
+        var popup_c25853f98fa043779a1b2755af64db4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0bd763880efc45dfa857f69695f41ce5 = $(`<div id="html_0bd763880efc45dfa857f69695f41ce5" style="width: 100.0%; height: 100.0%;">Greenwood Sarah K-8</div>`)[0];
+            popup_c25853f98fa043779a1b2755af64db4a.setContent(html_0bd763880efc45dfa857f69695f41ce5);
+        
+
+        marker_e94dee0db35b4f00abe0dc330682683b.bindPopup(popup_c25853f98fa043779a1b2755af64db4a)
+        ;
+
+        
+    
+    
+            var marker_9b558c6775674bac94d0289d81aedb30 = L.marker(
+                [42.2965601131686, -71.08066201680158],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_90bad0ab1ce14115b66358449b558760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_9b558c6775674bac94d0289d81aedb30.setIcon(icon_90bad0ab1ce14115b66358449b558760);
+        
+    
+        var popup_4b60675907a6448395145355f80ec203 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25e71d3e5916467ea70c13725e79fcf3 = $(`<div id="html_25e71d3e5916467ea70c13725e79fcf3" style="width: 100.0%; height: 100.0%;">Burke High</div>`)[0];
+            popup_4b60675907a6448395145355f80ec203.setContent(html_25e71d3e5916467ea70c13725e79fcf3);
+        
+
+        marker_9b558c6775674bac94d0289d81aedb30.bindPopup(popup_4b60675907a6448395145355f80ec203)
+        ;
+
+        
+    
+    
+            var marker_f0d53d055dba48759f8d908b852b5c11 = L.marker(
+                [42.30681876066501, -71.08162523570914],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_f830f26382194f41a74d6d92f85d9a8b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f0d53d055dba48759f8d908b852b5c11.setIcon(icon_f830f26382194f41a74d6d92f85d9a8b);
+        
+    
+        var popup_ef30562543eb4fcfbe4e0a655c1eed1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_976edb091ebc47c6ac0d728f14a0ff03 = $(`<div id="html_976edb091ebc47c6ac0d728f14a0ff03" style="width: 100.0%; height: 100.0%;">Dever Elementary</div>`)[0];
+            popup_ef30562543eb4fcfbe4e0a655c1eed1d.setContent(html_976edb091ebc47c6ac0d728f14a0ff03);
+        
+
+        marker_f0d53d055dba48759f8d908b852b5c11.bindPopup(popup_ef30562543eb4fcfbe4e0a655c1eed1d)
+        ;
+
+        
+    
+    
+            var marker_af99b8e7f2d1431fb49a74e40c7fe643 = L.marker(
+                [42.31762866625126, -71.04274058324233],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_38c8ad04ece8416f87f68f0ac86179ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_af99b8e7f2d1431fb49a74e40c7fe643.setIcon(icon_38c8ad04ece8416f87f68f0ac86179ed);
+        
+    
+        var popup_b9197fe46ea04d7f91e2ac3682168355 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a43b9e14a2f43f285448e5091ce3b0c = $(`<div id="html_9a43b9e14a2f43f285448e5091ce3b0c" style="width: 100.0%; height: 100.0%;">McCormack Middle</div>`)[0];
+            popup_b9197fe46ea04d7f91e2ac3682168355.setContent(html_9a43b9e14a2f43f285448e5091ce3b0c);
+        
+
+        marker_af99b8e7f2d1431fb49a74e40c7fe643.bindPopup(popup_b9197fe46ea04d7f91e2ac3682168355)
+        ;
+
+        
+    
+    
+            var marker_5a2adde1f53944f38ac1acf9bbc96d32 = L.marker(
+                [42.318028665529525, -71.04350058255399],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_80b97d80ecb74438ae533e058c598b6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5a2adde1f53944f38ac1acf9bbc96d32.setIcon(icon_80b97d80ecb74438ae533e058c598b6a);
+        
+    
+        var popup_0e790d8fa9984e04af6dfd9ec5e5e509 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb45cbf4029c44deb25461fdacb89e67 = $(`<div id="html_cb45cbf4029c44deb25461fdacb89e67" style="width: 100.0%; height: 100.0%;">Condon K-8</div>`)[0];
+            popup_0e790d8fa9984e04af6dfd9ec5e5e509.setContent(html_cb45cbf4029c44deb25461fdacb89e67);
+        
+
+        marker_5a2adde1f53944f38ac1acf9bbc96d32.bindPopup(popup_0e790d8fa9984e04af6dfd9ec5e5e509)
+        ;
+
+        
+    
+    
+            var marker_027917eaaea34e5c933a6fe6adf47635 = L.marker(
+                [42.33802589334743, -71.0521512218551],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_43150521847b4b6bbf7201c9a726be18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_027917eaaea34e5c933a6fe6adf47635.setIcon(icon_43150521847b4b6bbf7201c9a726be18);
+        
+    
+        var popup_255332549f3a4484a4179d0314f0af7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6d300a91dc4846a7af0d09049dbd5b67 = $(`<div id="html_6d300a91dc4846a7af0d09049dbd5b67" style="width: 100.0%; height: 100.0%;">Roosevelt K-8 (K1-1)</div>`)[0];
+            popup_255332549f3a4484a4179d0314f0af7f.setContent(html_6d300a91dc4846a7af0d09049dbd5b67);
+        
+
+        marker_027917eaaea34e5c933a6fe6adf47635.bindPopup(popup_255332549f3a4484a4179d0314f0af7f)
+        ;
+
+        
+    
+    
+            var marker_31056889577a4e159c11477231d2fb38 = L.marker(
+                [42.23389864702128, -71.13288060806134],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_7b6fe0686d05451b90fb4db1c64a35d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31056889577a4e159c11477231d2fb38.setIcon(icon_7b6fe0686d05451b90fb4db1c64a35d8);
+        
+    
+        var popup_aec0ed9a2e1b48ffaeb971912b7dd369 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c7f5e4623124428986cdf6d37be0b8ed = $(`<div id="html_c7f5e4623124428986cdf6d37be0b8ed" style="width: 100.0%; height: 100.0%;">Bradley Elementary</div>`)[0];
+            popup_aec0ed9a2e1b48ffaeb971912b7dd369.setContent(html_c7f5e4623124428986cdf6d37be0b8ed);
+        
+
+        marker_31056889577a4e159c11477231d2fb38.bindPopup(popup_aec0ed9a2e1b48ffaeb971912b7dd369)
+        ;
+
+        
+    
+    
+            var marker_33f8455a786946c89bc920e29b2e76e8 = L.marker(
+                [42.391616179458644, -71.00504507599945],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_76b07607ac3f4356a897da7d8450bba8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_33f8455a786946c89bc920e29b2e76e8.setIcon(icon_76b07607ac3f4356a897da7d8450bba8);
+        
+    
+        var popup_a2d86f77409640da93005f4a41a7658e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b546609450414bd58ad75cfb4d5e4546 = $(`<div id="html_b546609450414bd58ad75cfb4d5e4546" style="width: 100.0%; height: 100.0%;">Hennigan K-8</div>`)[0];
+            popup_a2d86f77409640da93005f4a41a7658e.setContent(html_b546609450414bd58ad75cfb4d5e4546);
+        
+
+        marker_33f8455a786946c89bc920e29b2e76e8.bindPopup(popup_a2d86f77409640da93005f4a41a7658e)
+        ;
+
+        
+    
+    
+            var marker_6ca72ce32afe4669b3cdd31734434232 = L.marker(
+                [42.325622122989714, -71.10691069018256],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_63a8f16eb8d344a4a1e8947160b50586 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_6ca72ce32afe4669b3cdd31734434232.setIcon(icon_63a8f16eb8d344a4a1e8947160b50586);
+        
+    
+        var popup_1ee00d9169704f1585795c33662b5f88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_53e3f64745c442bf9dd35ebb00068eed = $(`<div id="html_53e3f64745c442bf9dd35ebb00068eed" style="width: 100.0%; height: 100.0%;">Ellison/ Parks ELC</div>`)[0];
+            popup_1ee00d9169704f1585795c33662b5f88.setContent(html_53e3f64745c442bf9dd35ebb00068eed);
+        
+
+        marker_6ca72ce32afe4669b3cdd31734434232.bindPopup(popup_1ee00d9169704f1585795c33662b5f88)
+        ;
+
+        
+    
+    
+            var marker_a0f18903c6af4b25aa51c593b46f2a40 = L.marker(
+                [42.27178865474239, -71.09189059700259],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_c16c577750044a39b150c9e0be81fcf8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_a0f18903c6af4b25aa51c593b46f2a40.setIcon(icon_c16c577750044a39b150c9e0be81fcf8);
+        
+    
+        var popup_2e87680bd1484d22a7098c878b3e2eef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_16637fe6556c4841b5e65a45c49f6476 = $(`<div id="html_16637fe6556c4841b5e65a45c49f6476" style="width: 100.0%; height: 100.0%;">Greater Egleston High</div>`)[0];
+            popup_2e87680bd1484d22a7098c878b3e2eef.setContent(html_16637fe6556c4841b5e65a45c49f6476);
+        
+
+        marker_a0f18903c6af4b25aa51c593b46f2a40.bindPopup(popup_2e87680bd1484d22a7098c878b3e2eef)
+        ;
+
+        
+    
+    
+            var marker_7e85ce26f16549c5a2d2ebfd22a238f4 = L.marker(
+                [42.314128662932774, -71.09929060184345],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_1b3649501be24302bf6240397342b735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7e85ce26f16549c5a2d2ebfd22a238f4.setIcon(icon_1b3649501be24302bf6240397342b735);
+        
+    
+        var popup_969c472da2e6488da1283697b7b3fd38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6f76e66f94f84731bf44a2384d3d1413 = $(`<div id="html_6f76e66f94f84731bf44a2384d3d1413" style="width: 100.0%; height: 100.0%;">Mission Hill K-8</div>`)[0];
+            popup_969c472da2e6488da1283697b7b3fd38.setContent(html_6f76e66f94f84731bf44a2384d3d1413);
+        
+
+        marker_7e85ce26f16549c5a2d2ebfd22a238f4.bindPopup(popup_969c472da2e6488da1283697b7b3fd38)
+        ;
+
+        
+    
+    
+            var marker_53382387be9344aeb83c585ddc57f905 = L.marker(
+                [42.30703515331264, -71.11386744155621],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_45c4d06d2a4d402894898f48a52ecfb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_53382387be9344aeb83c585ddc57f905.setIcon(icon_45c4d06d2a4d402894898f48a52ecfb9);
+        
+    
+        var popup_927f6f53d7764a1098c674835a560351 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb9382c84ac4436db8e35b4d79a91a67 = $(`<div id="html_cb9382c84ac4436db8e35b4d79a91a67" style="width: 100.0%; height: 100.0%;">Margarita Muniz Academy</div>`)[0];
+            popup_927f6f53d7764a1098c674835a560351.setContent(html_cb9382c84ac4436db8e35b4d79a91a67);
+        
+
+        marker_53382387be9344aeb83c585ddc57f905.bindPopup(popup_927f6f53d7764a1098c674835a560351)
+        ;
+
+        
+    
+    
+            var marker_444454e25b944b9c8c76727363dfd232 = L.marker(
+                [42.30720829286413, -71.11448218532625],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_2fb791e875d349ceb8621b7c7ee2ee6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_444454e25b944b9c8c76727363dfd232.setIcon(icon_2fb791e875d349ceb8621b7c7ee2ee6e);
+        
+    
+        var popup_67c577b3abf249d98cf87bf2cc0b19cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f0cf37d8880495090b93d6eadf23a63 = $(`<div id="html_8f0cf37d8880495090b93d6eadf23a63" style="width: 100.0%; height: 100.0%;">Dudley Street Neighborhood Charter School</div>`)[0];
+            popup_67c577b3abf249d98cf87bf2cc0b19cd.setContent(html_8f0cf37d8880495090b93d6eadf23a63);
+        
+
+        marker_444454e25b944b9c8c76727363dfd232.bindPopup(popup_67c577b3abf249d98cf87bf2cc0b19cd)
+        ;
+
+        
+    
+    
+            var marker_41f9b99a388747b9b6e59c14e3396aaf = L.marker(
+                [42.32192747253831, -71.07337366277201],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_ea752870b02d49f09fb2e936f4ee537a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_41f9b99a388747b9b6e59c14e3396aaf.setIcon(icon_ea752870b02d49f09fb2e936f4ee537a);
+        
+    
+        var popup_6d6d0cc684a84ac18a11d0366b958260 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90c40bd836584c8bbe7565199ce96f62 = $(`<div id="html_90c40bd836584c8bbe7565199ce96f62" style="width: 100.0%; height: 100.0%;">Kennedy Health Careers Academy (9-10)</div>`)[0];
+            popup_6d6d0cc684a84ac18a11d0366b958260.setContent(html_90c40bd836584c8bbe7565199ce96f62);
+        
+
+        marker_41f9b99a388747b9b6e59c14e3396aaf.bindPopup(popup_6d6d0cc684a84ac18a11d0366b958260)
+        ;
+
+        
+    
+    
+            var marker_c11bddcd8be542ae92dc85f561a26c9a = L.marker(
+                [42.33393142589264, -71.10656366480434],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_45b64f40b10b45279b6088454a83a16c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_c11bddcd8be542ae92dc85f561a26c9a.setIcon(icon_45b64f40b10b45279b6088454a83a16c);
+        
+    
+        var popup_e2c9327adfd241d5b555cf50bfdd2e99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c0d33b8d4c6941de9cf9305e597078dc = $(`<div id="html_c0d33b8d4c6941de9cf9305e597078dc" style="width: 100.0%; height: 100.0%;">Community Leadership Academy</div>`)[0];
+            popup_e2c9327adfd241d5b555cf50bfdd2e99.setContent(html_c0d33b8d4c6941de9cf9305e597078dc);
+        
+
+        marker_c11bddcd8be542ae92dc85f561a26c9a.bindPopup(popup_e2c9327adfd241d5b555cf50bfdd2e99)
+        ;
+
+        
+    
+    
+            var marker_5d42b15a99f34a8abc375a21c4de5e7b = L.marker(
+                [42.26322789711886, -71.11788606569694],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_c968e175de9b495b8a29f82df5ec4e8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5d42b15a99f34a8abc375a21c4de5e7b.setIcon(icon_c968e175de9b495b8a29f82df5ec4e8e);
+        
+    
+        var popup_2e7fd67790984339a57dbe7847f23835 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0cb02fccbc045fb813e735e2d2885fe = $(`<div id="html_e0cb02fccbc045fb813e735e2d2885fe" style="width: 100.0%; height: 100.0%;">Eliot K-8</div>`)[0];
+            popup_2e7fd67790984339a57dbe7847f23835.setContent(html_e0cb02fccbc045fb813e735e2d2885fe);
+        
+
+        marker_5d42b15a99f34a8abc375a21c4de5e7b.bindPopup(popup_2e7fd67790984339a57dbe7847f23835)
+        ;
+
+        
+    
+    
+            var marker_4315d849b0144bcf9c441107cc8d1847 = L.marker(
+                [42.36591095888185, -71.05487078538347],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_b6906b7a285d4cf98ab477986fd85c88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4315d849b0144bcf9c441107cc8d1847.setIcon(icon_b6906b7a285d4cf98ab477986fd85c88);
+        
+    
+        var popup_a2e061b246474877bb13452a6a8fafaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf786af1d7664c748970d4bad1da16b7 = $(`<div id="html_cf786af1d7664c748970d4bad1da16b7" style="width: 100.0%; height: 100.0%;">Higginson Elementary (K1-2)</div>`)[0];
+            popup_a2e061b246474877bb13452a6a8fafaf.setContent(html_cf786af1d7664c748970d4bad1da16b7);
+        
+
+        marker_4315d849b0144bcf9c441107cc8d1847.bindPopup(popup_a2e061b246474877bb13452a6a8fafaf)
+        ;
+
+        
+    
+    
+            var marker_0f57ccc8aa69483d845f9a8fd8d9f1f3 = L.marker(
+                [42.317660189389244, -71.09202957055001],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_5f4d1bf74099422f959aaa376ac5ce09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f57ccc8aa69483d845f9a8fd8d9f1f3.setIcon(icon_5f4d1bf74099422f959aaa376ac5ce09);
+        
+    
+        var popup_ae0c49db4a61459eb8353a8d32a2c725 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96ddf6ca48794bb09483319297e6d66a = $(`<div id="html_96ddf6ca48794bb09483319297e6d66a" style="width: 100.0%; height: 100.0%;">Alighieri Montessori</div>`)[0];
+            popup_ae0c49db4a61459eb8353a8d32a2c725.setContent(html_96ddf6ca48794bb09483319297e6d66a);
+        
+
+        marker_0f57ccc8aa69483d845f9a8fd8d9f1f3.bindPopup(popup_ae0c49db4a61459eb8353a8d32a2c725)
+        ;
+
+        
+    
+    
+            var marker_2c2a7246d56f4e3ba8aa984b777fe3b1 = L.marker(
+                [42.37156843613758, -71.03794008198359],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_29f95e552acf48198be03769e683b261 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_2c2a7246d56f4e3ba8aa984b777fe3b1.setIcon(icon_29f95e552acf48198be03769e683b261);
+        
+    
+        var popup_f279e061295c481ebc6e4ed83b9d57bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7be3ce62ede9417faba2413e4d0ff002 = $(`<div id="html_7be3ce62ede9417faba2413e4d0ff002" style="width: 100.0%; height: 100.0%;">Boston Adult Tech Acad</div>`)[0];
+            popup_f279e061295c481ebc6e4ed83b9d57bf.setContent(html_7be3ce62ede9417faba2413e4d0ff002);
+        
+
+        marker_2c2a7246d56f4e3ba8aa984b777fe3b1.bindPopup(popup_f279e061295c481ebc6e4ed83b9d57bf)
+        ;
+
+        
+    
+    
+            var marker_d80d5965a7374b5ba3c3ff07ea329f33 = L.marker(
+                [42.34876970981879, -71.06814953601999],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_a00d51d53dfc42a9b200d0d0e9097efd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brick", "prefix": "glyphicon"}
+            );
+            marker_d80d5965a7374b5ba3c3ff07ea329f33.setIcon(icon_a00d51d53dfc42a9b200d0d0e9097efd);
+        
+    
+        var popup_52a1009aa3284ea4abc80461e44ba968 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ccedb3e963cd4821aa0e591797b231e1 = $(`<div id="html_ccedb3e963cd4821aa0e591797b231e1" style="width: 100.0%; height: 100.0%;">Boston Green Academy</div>`)[0];
+            popup_52a1009aa3284ea4abc80461e44ba968.setContent(html_ccedb3e963cd4821aa0e591797b231e1);
+        
+
+        marker_d80d5965a7374b5ba3c3ff07ea329f33.bindPopup(popup_52a1009aa3284ea4abc80461e44ba968)
+        ;
+
+        
+    
+    
+            var marker_5494e439440d4e7b8738a77211935872 = L.marker(
+                [42.350440724681775, -71.14596105872063],
+                {}
+            ).addTo(marker_cluster_f19154a06ae241c881fb30b3a30a930a);
+        
+    
+            var icon_0242475088864bd6bfe3cde7c419cb2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brick", "prefix": "glyphicon"}
+            );
+            marker_5494e439440d4e7b8738a77211935872.setIcon(icon_0242475088864bd6bfe3cde7c419cb2d);
+        
+    
+        var popup_ef2630c88b5141539eb702a369ca5ad8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbaec67187ea4300885691033ceb4165 = $(`<div id="html_bbaec67187ea4300885691033ceb4165" style="width: 100.0%; height: 100.0%;">Dearborn Academy</div>`)[0];
+            popup_ef2630c88b5141539eb702a369ca5ad8.setContent(html_bbaec67187ea4300885691033ceb4165);
+        
+
+        marker_5494e439440d4e7b8738a77211935872.bindPopup(popup_ef2630c88b5141539eb702a369ca5ad8)
+        ;
+
+        
+    
+</script>
