@@ -4,7 +4,7 @@ DOCKERLS=$(docker ps | grep jupyter_container | awk -F' ' '{ print $15 }')
 echo "$DOCKERLS"
 #
 if [[ $DOCKERLS != "jupyter_container" ]]; then
-   docker run  -itd -p 9003:9003 -p 54321:54321 --cap-add=NET_ADMIN --name jupyter_container  jpacerqueira83/datascience-fullstack-vm1:latest
+   docker run  -itd -p 9003:9003 -p 54321:54321 --cap-add=NET_ADMIN --name jupyter_container  gftjoao/datascience-fullstack-v1.0:latest
    echo "  wait 6 min "
    sleep 480
 fi
