@@ -63,8 +63,6 @@ RUN chown notebookuser:notebookuser -R /home/notebookuser
 
 RUN ln -fs /usr/share/zoneinfo/UTC /etc/localtime
 
-RUN ln -fs /usr/share/zoneinfo/UTC /etc/localtime
-
 EXPOSE 9003/tcp 54321/tcp
 
 USER notebookuser
