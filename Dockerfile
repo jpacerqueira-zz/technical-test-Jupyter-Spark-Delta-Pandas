@@ -1,9 +1,8 @@
 FROM ubuntu:18.04
 
-RUN export DEBIAN_FRONTEND=noninteractive
-
 RUN apt-get update -y && apt-get install -y apt-utils \
     sudo
+RUN apt-get upgrade -y
 RUN \
     groupadd -g 999 notebookuser && useradd -u 999 -g notebookuser -G sudo -m -s /bin/bash notebookuser && \
     sed -i /etc/sudoers -re 's/^%sudo.*/%sudo ALL=(ALL:ALL) NOPASSWD: ALL/g' && \
@@ -13,8 +12,8 @@ RUN \
     echo "Customized the sudoers file for passwordless access to the notebookuser user!" && \
     echo "notebookuser user:";  su - notebookuser -c id
 
-RUN apt-get upgrade -y
-RUN apt-get update -y && apt-get install -y curl \
+RUN export DEBIAN_FRONTEND=noninteractive ; \
+    apt-get update -y && apt-get install -y curl \
     tzdata \
     net-tools \
     iptables \
