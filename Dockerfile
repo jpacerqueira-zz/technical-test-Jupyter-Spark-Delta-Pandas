@@ -1,5 +1,7 @@
 FROM ubuntu:18.04
 
+RUN export DEBIAN_FRONTEND=noninteractive
+
 RUN apt-get update -y && apt-get install -y apt-utils \
     sudo
 RUN \
@@ -11,8 +13,7 @@ RUN \
     echo "Customized the sudoers file for passwordless access to the notebookuser user!" && \
     echo "notebookuser user:";  su - notebookuser -c id
 
-RUN export DEBIAN_FRONTEND=noninteractive
-
+RUN apt-get upgrade -y
 RUN apt-get update -y && apt-get install -y curl \
     tzdata \
     net-tools \
@@ -22,9 +23,7 @@ RUN apt-get update -y && apt-get install -y curl \
     zip \
     unzip \
     tar \
-    bzip2 
-
-RUN apt-get update -y && apt-get install -y \
+    bzip2 \
     python-qt4 \
     python-pyside \
     python-pip \
@@ -65,6 +64,8 @@ RUN chown notebookuser:notebookuser -R /home/notebookuser
 RUN ln -fs /usr/share/zoneinfo/GMT /etc/localtime
 
 EXPOSE 9003/tcp 54321/tcp
+
+RUN export DEBIAN_FRONTEND=interactive
 
 USER notebookuser
 
