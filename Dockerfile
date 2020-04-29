@@ -42,17 +42,20 @@ ADD java_tools/*.* /home/notebookuser/java/
 RUN chmod 777 /home/notebookuser/java/*.sh
 
 CMD mkdir -p  /home/notebookuser/notebooks/data ; \
-    mkdir -p  /home/notebookuser/notebooks/data/delta_business_terms ; \
-    mkdir -p  /home/notebookuser/notebooks/data/delta_real_estate_term_definitions ; \
-    mkdir -p  /home/notebookuser/notebooks/data/delta_terms_words_ngrams_real_estate ; \
-    mkdir -p  /home/notebookuser/notebooks/data/terms_words_mortgages
+    mkdir -p  /home/notebookuser/notebooks/test_exercise/data/delta_business_terms ; \
+    mkdir -p  /home/notebookuser/notebooks/test_exercise/data/delta_business_terms ; \
+    mkdir -p  /home/notebookuser/notebooks/test_exercise/data/delta_real_estate_term_definitions ; \
+    mkdir -p  /home/notebookuser/notebooks/test_exercise/data/delta_terms_words_ngrams_real_estate ; \
+    mkdir -p  /home/notebookuser/notebooks/test_exercise/data/terms_words_mortgages
 
 ADD notebooks/*.* /home/notebookuser/notebooks/
 ADD notebooks/data/*.*  /home/notebookuser/notebooks/data/
-ADD notebooks/data/delta_business_terms/*.*  /home/notebookuser/notebooks/data/delta_business_terms/
-ADD notebooks/data/delta_real_estate_term_definitions/*.*  /home/notebookuser/notebooks/data/delta_real_estate_term_definitions/
-ADD notebooks/data/delta_terms_words_ngrams_real_estate/*.*  /home/notebookuser/notebooks/data/delta_terms_words_ngrams_real_estate/
-ADD notebooks/data/terms_words_mortgages/*.*  /home/notebookuser/notebooks/data/terms_words_mortgages/
+#
+ADD notebooks/test_exercise/*.*  /home/notebookuser/notebooks/test_exercise/
+ADD notebooks/test_exercise/data/delta_business_terms/*.*  /home/notebookuser/notebooks/test_exercise/data/delta_business_terms/
+ADD notebooks/test_exercise/data/delta_real_estate_term_definitions/*.*  /home/notebookuser/notebooks/test_exercise/data/delta_real_estate_term_definitions/
+ADD notebooks/test_exercise/data/delta_terms_words_ngrams_real_estate/*.*  /home/notebookuser/notebooks/test_exercise/data/delta_terms_words_ngrams_real_estate/
+ADD notebooks/test_exercise/data/terms_words_mortgages/*.*  /home/notebookuser/notebooks/test_exercise/data/terms_words_mortgages/
 
 ADD setup-container-tools.sh /home/notebookuser/setup-container-tools.sh
 
