@@ -65,7 +65,9 @@ RUN chown notebookuser:notebookuser -R /home/notebookuser
 
 RUN ln -fs /usr/share/zoneinfo/GMT /etc/localtime
 
-EXPOSE 9003/tcp 54321/tcp
+EXPOSE 9003/tcp
+##EXPOSE 54321/tcp
+RUN (echo "20 6 * * * notebookuser bash -x /home/notebookuser/notebooks/daily-automation-notebook.sh" > /etc/cron.daily/notebooks-jupyter ; chmod 755 /etc/cron.daily/notebooks-jupyter )
 
 RUN export DEBIAN_FRONTEND=interactive
 
