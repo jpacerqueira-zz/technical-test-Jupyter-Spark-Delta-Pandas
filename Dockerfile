@@ -75,6 +75,8 @@ USER notebookuser
 
 CMD export HOME=/home/notebookuser
 
+RUN (echo "{ \n }" > $HOME/notebooks/Analyser-CVs-PDF-YYYYMMDD.ipynb)
+
 # Anaconda python and R package installer
 CMD  export HOME=/home/notebookuser ; cd $HOME ; \
      sleep 9 ; \
